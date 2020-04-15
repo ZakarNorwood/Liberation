@@ -13,11 +13,20 @@
         <!-- Portuguese localization made by NomadRomeo: https://github.com/NomadRomeo -->
         <!-- Korean localization made by Panzer: https://github.com/PanzerKoLee -->
         <Key ID="STR_MISSION_TITLE">
-            <Original>CTI 34 KP Liberation v0.96.6</Original>
+            <Original>15th MEU Liberation v0.96.6</Original>
         </Key>
         <Key ID="STR_MISSION_VERSION">
             <Original>v0.96.6</Original>
         </Key>
+
+        <!-- 15th MEU custom strings -->
+        <Key ID="STR_REC_SIGN">
+            <Original>Recruiting Sign</Original>
+        </Key>
+        <Key ID="STR_RULES_SIGN">
+            <Original>Rules Sign (Small)</Original>
+        </Key>
+
         <Key ID="STR_Deploy_OnPoint">
             <Original>Deploy</Original>
             <French>Déploiement</French>
@@ -530,7 +539,7 @@
             <Korean>-- 재배치 --</Korean>
         </Key>
         <Key ID="STR_BUILD_CREW">
-            <Original>Build (Crew)</Original>
+            <Original>DO NOT USE</Original>
             <French>Construire (Equipage)</French>
             <German>Bauen (Besatzung)</German>
             <Spanish>Construir (Equipo)</Spanish>

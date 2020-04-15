@@ -206,7 +206,6 @@ GRLIB_arsenal_items = [
 	"ItemGPS",
 	"ItemMap",
 	"ItemWatch",
-	"ItemRadio",
 	"Laserdesignator",
 	"NVGoggles",
 	"NVGoggles_INDEP",

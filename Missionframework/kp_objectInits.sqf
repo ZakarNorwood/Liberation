@@ -21,5 +21,10 @@ KPLIB_objectInits = [
     [KP_liberation_medical_vehicles, {_this setVariable ["ace_medical_medicClass", 1, true];}],
 
     // Hide Cover on big GM trucks
-    [["gm_ge_army_kat1_454_cargo", "gm_ge_army_kat1_454_cargo_win"], {_this animateSource ["cover_unhide", 0, true];}]
+    [["gm_ge_army_kat1_454_cargo", "gm_ge_army_kat1_454_cargo_win"], {_this animateSource ["cover_unhide", 0, true];}],
+
+    // 15th sign textures
+    [["Land_Billboard_F"], {_this setObjectTexture [0,"res\REC_S1RD.jpg"];}],
+    [["SignAd_Sponsor_F"], {_this setObjectTexture [0,"res\RECRules.jpg"];}],
+    [[Arsenal_typename], {[_this] execVM "scripts\armory\MEU_Armory.sqf";}]
 ];
