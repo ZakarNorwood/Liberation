@@ -25,6 +25,5 @@ KPLIB_objectInits = [
 
     // 15th sign textures
     [["Land_Billboard_F"], {_this setObjectTexture [0,"res\REC_S1RD.jpg"];}],
-    [["SignAd_Sponsor_F"], {_this setObjectTexture [0,"res\RECRules.jpg"];}],
-    [[Arsenal_typename], {[_this] execVM "scripts\armory\MEU_Armory.sqf";}]
+    [["SignAd_Sponsor_F"], {_this setObjectTexture [0,"res\RECRules.jpg"];}]
 ];
