@@ -17,6 +17,13 @@ onLoadName = $STR_MISSION_TITLE;
 onLoadMission = "15th MEU Public Server - 15thmeu.net";
 loadScreen = "res\liberation15a.jpg";
 
+class Header
+{
+	gameType = "CTI";
+	minPlayers = 1;
+	maxPlayers = 64;
+};
+
 joinUnassigned = 1;
 
 corpseManagerMode = 1;
