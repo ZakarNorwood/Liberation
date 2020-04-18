@@ -18,6 +18,8 @@ opfor_grenadier = "UK3CB_TKM_O_GL";										//Grenadier
 opfor_machinegunner = "UK3CB_TKM_O_AR";									//Autorifleman
 opfor_heavygunner = "UK3CB_TKM_O_MG";									//Heavy Gunner
 opfor_marksman = "UK3CB_TKM_O_MK";										//Marksman
+opfor_sharpshooter = "UK3CB_TKM_O_SPOT";								//Sharpshooter
+opfor_sniper = "UK3CB_TKM_O_SNI";										//Sniper
 opfor_at = "UK3CB_TKM_O_AT";											//AT Specialist
 opfor_aa = "UK3CB_TKM_O_AA";											//AA Specialist
 opfor_medic = "UK3CB_TKM_O_MD";											//Combat Life Saver
@@ -65,7 +67,7 @@ militia_vehicles = [
 	"UK3CB_TKM_O_Hilux_Spg9",											//Hilux (Spg9)
 	"UK3CB_TKM_O_Hilux_GMG",											//Hilux (AGS30)
 	"UK3CB_TKM_O_V3S_Zu23",												//URAL (ZU23)
-	"UK3CB_TKM_O_BRDM2",												//BRDM2	
+	"UK3CB_TKM_O_BRDM2",												//BRDM2
 	"UK3CB_TKM_O_BRDM2_ATGM"											//BRDM2-Konkurs
 ];
 
