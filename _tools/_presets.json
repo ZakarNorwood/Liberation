@@ -3,6 +3,7 @@
         "sourceFolder": "15th_liberation.Abramia",
         "missionName": "15thMEU_LIB_IslaAbramia",
         "map": "Abramia",
+        "mapDisplay": "Isla Abramia",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
             "KP_liberation_preset_blufor": 6,
@@ -42,6 +43,7 @@
         "sourceFolder": "15th_liberation.Lingor3",
         "missionName": "15thMEU_LIB_Lingor",
         "map": "Lingor3",
+        "mapDisplay": "Lingor",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
             "KP_liberation_preset_blufor": 6,
@@ -68,6 +70,7 @@
         "sourceFolder": "15th_liberation.Sara",
         "missionName": "15thMEU_LIB_Sahrani",
         "map": "Sara",
+        "mapDisplay": "Sahrani",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
             "KP_liberation_preset_blufor": 6,
