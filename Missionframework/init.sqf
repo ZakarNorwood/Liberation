@@ -29,28 +29,19 @@ if (!isDedicated && hasInterface) then {
 } else {
     setViewDistance 1600;
 };
-//Radio Programming\\
-_nop = [] execVM "meuRadio_Nofreq.sqf";
-
-//briefing map entries\\
-[] execVM "briefing.sqf";
-
-//ACE Cookoff\\
-ace_cookoff_enabled = false;
-ace_cookoff_enableAmmoCookoff = false;
-
-//Restrict Aircraft\\
-[] call compile preprocessFileLineNumbers "RestrictAircraft.sqf";
-
-waituntil {!isnil "bis_fnc_init"};
-
-//hint message mp function\\
-new_fnc_MPhint = { hint _this };
-
-//Advanced Towing
-[] execVM "scripts\fn_advancedTowingInit.sqf";
 
 // Execute fnc_reviveInit again (by default it executes in postInit)
 if ((isNil {player getVariable "bis_revive_ehHandleHeal"} || isDedicated) && !(bis_reviveParam_mode == 0)) then {
     [] call bis_fnc_reviveInit;
 };
+
+//Radio Programming\\
+[] execVM "meuRadio_Nofreq.sqf";
+
+//briefing map entries\\
+[] execVM "briefing.sqf";
+
+waituntil {!isnil "bis_fnc_init"};
+
+//Advanced Towing
+[] execVM "scripts\fn_advancedTowingInit.sqf";
