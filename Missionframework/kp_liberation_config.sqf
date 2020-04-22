@@ -113,7 +113,10 @@ KP_liberation_preset_blufor = 0;
 14 = CUP Takistani Army
 15 = CUP Chernarussian Movement of the Red Star
 16 = CUP Armed Forces of the Russian Federation (MSV - EMR)
-17 = CUP Armed Forces of the Russian Federation (Modern MSV) */
+17 = CUP Armed Forces of the Russian Federation (Modern MSV)
+18 - 3CB Chernarus Anti-Government Militia
+19 - 3CB Cold War (Late) Soviet Forces
+20 - 3CB Takistan Pro-Government Militia */
 KP_liberation_preset_opfor = 0;
 
 /* Resistance preset:

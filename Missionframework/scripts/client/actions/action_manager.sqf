@@ -10,7 +10,7 @@ private _idact_logistic = -1;
 private _idact_repackage = -1;
 private _idact_halo = -1;
 private _idact_secondary = -1;
-private _idact_zeus = -1;
+private _idact_zeus = 0;
 private _idact_resources = -1;
 private _idact_sectorstorage = -1;
 private _idact_supplyfacility = -1;
@@ -109,17 +109,6 @@ while {true} do {
         if (_idact_squad != -1) then {
             player removeAction _idact_squad;
             _idact_squad = -1;
-        };
-    };
-
-    if ((_fobdistance < _distredeploy || count KP_liberation_neararsenal != 0 || count KP_liberation_nearspawn != 0 || (player distance startbase) < 200) && alive player && vehicle player == player) then {
-        if (_idact_arsenal == -1) then {
-            _idact_arsenal = player addAction ["<t color='#FFFF00'>" + localize "STR_ARSENAL_ACTION" + "</t> <img size='2' image='res\ui_arsenal.paa'/>","scripts\client\actions\open_arsenal.sqf","",-980,true,true,"","build_confirmed == 0"];
-        };
-    } else {
-        if (_idact_arsenal != -1) then {
-            player removeAction _idact_arsenal;
-            _idact_arsenal = -1;
         };
     };
 

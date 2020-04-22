@@ -8,12 +8,21 @@ allowFunctionsLog = 0;
 unsafeCVL = 1;
 
 briefingName = $STR_MISSION_TITLE;
-overviewText = "www.killahpotatoes.de";
-overviewPicture = "res\lib.paa";
-author = "[GREUH] Zbug, [GREUH] McKeewa, [KP] Wyqer";
+overviewText = "15th MEU Public Server Liberation v0.96.6";
+overviewTextLocked="15th MEU Public Server Liberation v0.96.6";
+overviewPicture = "res\liberation15a.jpg";
+overviewPictureLocked="res\liberation15a.jpg";
+author = "[GREUH] Zbug, McKeewa; [KP] Wyqer; 15th MEU Public Server Team";
 onLoadName = $STR_MISSION_TITLE;
-onLoadMission = "www.killahpotatoes.de";
-loadScreen = "res\lib.paa";
+onLoadMission = "15th MEU Public Server - 15thmeu.net";
+loadScreen = "res\liberation15a.jpg";
+
+class Header
+{
+	gameType = "CTI";
+	minPlayers = 1;
+	maxPlayers = 64;
+};
 
 joinUnassigned = 1;
 

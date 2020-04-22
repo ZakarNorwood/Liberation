@@ -34,3 +34,14 @@ if (!isDedicated && hasInterface) then {
 if ((isNil {player getVariable "bis_revive_ehHandleHeal"} || isDedicated) && !(bis_reviveParam_mode == 0)) then {
     [] call bis_fnc_reviveInit;
 };
+
+//Radio Programming\\
+[] execVM "meuRadio_Nofreq.sqf";
+
+//briefing map entries\\
+[] execVM "briefing.sqf";
+
+waituntil {!isnil "bis_fnc_init"};
+
+//Advanced Towing
+[] execVM "scripts\fn_advancedTowingInit.sqf";
