@@ -95,7 +95,7 @@ if ([] call KP_liberation_victoryCheck && GRLIB_endgame != 1) then {
     diag_log text format ["[KP LIBERATION] [MISSION END] Hostile reinforcements called: %1", stats_reinforcements_called];
     diag_log text format ["[KP LIBERATION] [MISSION END] Total combat readiness raised: %1", round stats_readiness_earned];
     diag_log text format ["[KP LIBERATION] [MISSION END] IEDs detonated: %1", stats_ieds_detonated];
-    diag_log text format ["[KP LIBERATION] [MISSION END] Number of Potato 01 losses: %1", stats_spartan_respawns];
+    diag_log text format ["[KP LIBERATION] [MISSION END] Number of Warhorse 3-1 losses: %1", stats_spartan_respawns];
     diag_log text format ["[KP LIBERATION] [MISSION END] Rabbits killed: %1", _rabbits];
     diag_log text "[KP LIBERATION] [MISSION END] ------------------------------------";
 
