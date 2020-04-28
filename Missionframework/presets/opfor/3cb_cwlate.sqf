@@ -112,9 +112,10 @@ opfor_battlegroup_vehicles = [
 	"UK3CB_CW_SOV_O_LATE_T72A",											//T72A
 	"UK3CB_CW_SOV_O_LATE_T72BC",										//T72BC
 	"UK3CB_CW_SOV_O_LATE_T72BE",										//T72BE
-	"UK3CB_CW_SOV_O_LATE_Su25SM",										//Su-25
-	"UK3CB_CW_SOV_O_LATE_Su25SM_KH29",									//Su-25 (KH29)
-	"UK3CB_CW_SOV_O_LATE_MIG29S",										//Mig 29S
+	"RHS_Su25SM_vvs",													//Su-25 Grey
+	"RHS_Su25SM_vvsc",													//Su-25 Camo
+	"rhs_mig29sm_vvsc",													//Mig 29SM
+	"rhs_mig29s_vvsc"													//Mig 29S
 	"RHS_Mi24P_AT_vvsc",												//Mi-24P (AT)
 	"RHS_Mi24V_AT_vvsc",												//Mi-24V (AT)
 	"RHS_Mi8mt_Cargo_vvsc",												//Mi-8MT (Cargo)
@@ -141,6 +142,8 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"RHS_Mi24P_AT_vvsc",												//Mi-24P (AT)
 	"RHS_Mi24V_AT_vvsc",												//Mi-24V (AT)
 	"RHS_Mi8mt_Cargo_vvsc"												//Mi-8MT (Cargo)
+	"RHS_Mi8mtv3_Cargo_vvsc",											//Mi-8MTV3 (Cargo)
+	"rhs_mi28n_vvsc"													//Mi-28N
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
@@ -152,6 +155,7 @@ opfor_troup_transports = [
 	"UK3CB_CW_SOV_O_LATE_BTR80a",										//BTR-80A
 	"UK3CB_CW_SOV_O_LATE_BMP2K",										//BMP-2K
 	"RHS_Mi8mt_Cargo_vvsc",												//Mi-8MT (Cargo)
+	"RHS_Mi8mtv3_Cargo_vvsc",											//Mi-8MTV3 (Cargo)
 	"RHS_Mi24P_AT_vvsc",												//Mi-24P (AT)
 	"RHS_Mi24V_AT_vvsc"													//Mi-24V (AT)
 ];
@@ -166,7 +170,8 @@ opfor_choppers = [
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
-	"UK3CB_CW_SOV_O_LATE_Su25SM",										//Su-25
-	"UK3CB_CW_SOV_O_LATE_Su25SM_KH29",									//Su-25 (KH29)
-	"UK3CB_CW_SOV_O_LATE_MIG29S"										//Mig 29S
+	"RHS_Su25SM_vvs",													//Su-25 Grey
+	"RHS_Su25SM_vvsc",													//Su-25 Camo
+	"rhs_mig29sm_vvsc",													//Mig 29SM
+	"rhs_mig29s_vvsc"													//Mig 29S
 ];
