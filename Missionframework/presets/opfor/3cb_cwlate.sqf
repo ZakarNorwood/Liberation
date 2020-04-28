@@ -115,7 +115,7 @@ opfor_battlegroup_vehicles = [
 	"RHS_Su25SM_vvs",													//Su-25 Grey
 	"RHS_Su25SM_vvsc",													//Su-25 Camo
 	"rhs_mig29sm_vvsc",													//Mig 29SM
-	"rhs_mig29s_vvsc"													//Mig 29S
+	"rhs_mig29s_vvsc",													//Mig 29S
 	"RHS_Mi24P_AT_vvsc",												//Mi-24P (AT)
 	"RHS_Mi24V_AT_vvsc",												//Mi-24V (AT)
 	"RHS_Mi8mt_Cargo_vvsc",												//Mi-8MT (Cargo)
@@ -163,6 +163,7 @@ opfor_troup_transports = [
 // Enemy rotary-wings that will need to spawn in flight.
 opfor_choppers = [
 	"RHS_Mi8mt_Cargo_vvsc",												//Mi-8MT (Cargo)
+	"RHS_Mi8mtv3_Cargo_vvsc",											//Mi-8MTV3 (Cargo)
 	"RHS_Mi24P_AT_vvsc",												//Mi-24P (AT)
 	"RHS_Mi24V_AT_vvsc",												//Mi-24V (AT)
 	"RHS_Ka52_vvsc"														//Ka-52
