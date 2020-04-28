@@ -6824,15 +6824,15 @@
             <Korean>폭파된 폭발물 : %1</Korean>
         </Key>
         <Key ID="STR_STATS_POTATO">
-            <Original>Number of Potato 01 losses: %1</Original>
-            <French>Pertes de Potato 01: %1</French>
-            <German>Verluste von Potato 01: %1</German>
-            <Spanish>Número de pérdidas de Potato 01: %1</Spanish>
-            <Russian>Количество потерянных Potato 01: %1</Russian>
-            <Italian>Numero di Potato 01 persi: %1</Italian>
+            <Original>Number of Warhorse 3-1 losses: %1</Original>
+            <French>Pertes de Warhorse 3-1: %1</French>
+            <German>Verluste von Warhorse 3-1: %1</German>
+            <Spanish>Número de pérdidas de Warhorse 3-1: %1</Spanish>
+            <Russian>Количество потерянных Warhorse 3-1: %1</Russian>
+            <Italian>Numero di Warhorse 3-1 persi: %1</Italian>
             <Chinesesimp>损失的斯巴达01号： %1</Chinesesimp>
-            <Turkish>Potato 01 kayıpları: %1</Turkish>
-            <Portuguese>Número de baixas de Potato 01: %1</Portuguese>
+            <Turkish>Warhorse 3-1 kayıpları: %1</Turkish>
+            <Portuguese>Número de baixas de Warhorse 3-1: %1</Portuguese>
             <Korean> 파괴된 재투입차량 : %1</Korean>
         </Key>
         <Key ID="STR_STATS_RABBITS">

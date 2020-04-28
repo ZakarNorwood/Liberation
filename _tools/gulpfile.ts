@@ -79,7 +79,7 @@ for (let preset of presets) {
                 .pipe(gulpModify((content: string) => {
                     const version: string = content.match(versionRegex)['groups']['version'];
 
-                    return content.replace(nameRegex, `$1CTI 34 KP Liberation ${preset.mapDisplay || preset.map} ${version}$3`);
+                    return content.replace(nameRegex, `$115th MEU Liberation ${preset.mapDisplay || preset.map} ${version}$3`);
                 }))
                 .pipe(gulp.dest(mission.getOutputDir(), { overwrite: true, }))
             ;

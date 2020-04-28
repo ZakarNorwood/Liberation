@@ -18,6 +18,8 @@ opfor_grenadier = "UK3CB_CW_SOV_O_LATE_GL";								//Grenadier
 opfor_machinegunner = "UK3CB_CW_SOV_O_LATE_AR";							//Autorifleman
 opfor_heavygunner = "UK3CB_CW_SOV_O_LATE_MG";							//Heavy Gunner
 opfor_marksman = "UK3CB_CW_SOV_O_LATE_MK";								//Marksman
+opfor_sharpshooter = "UK3CB_CW_SOV_O_LATE_SF_SPOT";						//Sharpshooter
+opfor_sniper = "UK3CB_CW_SOV_O_LATE_SF_SNI";							//Sniper
 opfor_at = "UK3CB_CW_SOV_O_LATE_AT";									//AT Specialist
 opfor_aa = "UK3CB_CW_SOV_O_LATE_AA";									//AA Specialist
 opfor_medic = "UK3CB_CW_SOV_O_LATE_MD";									//Combat Life Saver
@@ -71,13 +73,13 @@ opfor_vehicles = [
 	"UK3CB_CW_SOV_O_LATE_BTR80",										//BTR80
 	"UK3CB_CW_SOV_O_LATE_BTR80a",										//BTR80A
 	"UK3CB_CW_SOV_O_LATE_BMP2K",										//BMP-2K
-	"UK3CB_CW_SOV_O_LATE_BMP1K",										//BMP-1K
+	"UK3CB_CW_SOV_O_LATE_BRM1K",										//BRM-1K
 	"UK3CB_CW_SOV_O_LATE_ZsuTank",										//ZSU-23-4V
 	"UK3CB_CW_SOV_O_LATE_Ural_Zu23",									//Ural-ZU23
 	"UK3CB_CW_SOV_O_LATE_T55",											//T-55A
 	"UK3CB_CW_SOV_O_LATE_T72A",											//T72A
 	"UK3CB_CW_SOV_O_LATE_T72BC",										//T72BC
-	"UK3CB_CW_SOV_O_LATE_BE"											//T80BE
+	"UK3CB_CW_SOV_O_LATE_T72BE"											//T72BE
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
@@ -103,13 +105,13 @@ opfor_battlegroup_vehicles = [
 	"UK3CB_CW_SOV_O_LATE_BTR80",										//BTR80
 	"UK3CB_CW_SOV_O_LATE_BTR80a",										//BTR80A
 	"UK3CB_CW_SOV_O_LATE_BMP2K",										//BMP-2K
-	"UK3CB_CW_SOV_O_LATE_BMP1K",										//BMP-1K
+	"UK3CB_CW_SOV_O_LATE_BRM1K",										//BRM-1K
 	"UK3CB_CW_SOV_O_LATE_ZsuTank",										//ZSU-23-4V
 	"UK3CB_CW_SOV_O_LATE_Ural_Zu23",									//Ural-ZU23
 	"UK3CB_CW_SOV_O_LATE_T55",											//T-55A
 	"UK3CB_CW_SOV_O_LATE_T72A",											//T72A
 	"UK3CB_CW_SOV_O_LATE_T72BC",										//T72BC
-	"UK3CB_CW_SOV_O_LATE_BE",											//T80BE
+	"UK3CB_CW_SOV_O_LATE_T72BE",										//T72BE
 	"UK3CB_CW_SOV_O_LATE_Su25SM",										//Su-25
 	"UK3CB_CW_SOV_O_LATE_Su25SM_KH29",									//Su-25 (KH29)
 	"UK3CB_CW_SOV_O_LATE_MIG29S",										//Mig 29S
@@ -132,7 +134,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"UK3CB_CW_SOV_O_LATE_BTR80",										//BTR80
 	"UK3CB_CW_SOV_O_LATE_BTR80a",										//BTR80A
 	"UK3CB_CW_SOV_O_LATE_BMP2K",										//BMP-2K
-	"UK3CB_CW_SOV_O_LATE_BMP1K",										//BMP-1K
+	"UK3CB_CW_SOV_O_LATE_BRM1K",										//BRM-1K
 	"UK3CB_CW_SOV_O_LATE_ZsuTank",										//ZSU-23-4V
 	"UK3CB_CW_SOV_O_LATE_Ural_Zu23",									//Ural-ZU23
 	"UK3CB_CW_SOV_O_LATE_T55",											//T-55A
@@ -148,7 +150,7 @@ opfor_troup_transports = [
 	"UK3CB_CW_SOV_O_LATE_Ural",											//Ural-4320 Transport (Covered)
 	"UK3CB_CW_SOV_O_LATE_BTR80",										//BTR-80
 	"UK3CB_CW_SOV_O_LATE_BTR80a",										//BTR-80A
-	"UK3CB_CW_SOV_O_LATE_BMP2K",										//BMP-2D
+	"UK3CB_CW_SOV_O_LATE_BMP2K",										//BMP-2K
 	"RHS_Mi8mt_Cargo_vvsc",												//Mi-8MT (Cargo)
 	"RHS_Mi24P_AT_vvsc",												//Mi-24P (AT)
 	"RHS_Mi24V_AT_vvsc"													//Mi-24V (AT)
