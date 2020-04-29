@@ -116,13 +116,15 @@ opfor_battlegroup_vehicles = [
 	"UK3CB_TKM_O_T55",													//T-55A
 	"UK3CB_CW_SOV_O_EARLY_T72A",										//T72A Early
 	"UK3CB_CW_SOV_O_EARLY_T72BC",										//T72BC Early
-	"UK3CB_CW_SOV_O_LATE_Su25SM",										//Su-25
-	"UK3CB_CW_SOV_O_LATE_Su25SM_KH29",									//Su-25 (KH29)
-	"UK3CB_CW_SOV_O_LATE_MIG29S",										//Mig 29S
+	"RHS_Su25SM_vvs",													//Su-25 Grey
+	"RHS_Su25SM_vvsc",													//Su-25 Camo
+	"rhs_mig29sm_vvsc",													//Mig 29SM
+	"rhs_mig29s_vvsc",													//Mig 29S
 	"RHS_Mi24P_AT_vvsc",												//Mi-24P (AT)
 	"RHS_Mi24V_AT_vvsc",												//Mi-24V (AT)
 	"RHS_Mi8mt_Cargo_vvsc",												//Mi-8MT (Cargo)
-	"RHS_Ka52_vvsc"														//Ka-52
+	"RHS_Ka52_vvsc",														//Ka-52
+	"rhs_mi28n_vvsc"													//Mi-28N
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
@@ -149,6 +151,7 @@ opfor_troup_transports = [
 	"UK3CB_TKM_O_BMP1",													//BMP1
 	"UK3CB_TKM_O_BRDM2",												//BRDM2
 	"RHS_Mi8mt_Cargo_vvsc",												//Mi-8MT (Cargo)
+	"RHS_Mi8mtv3_Cargo_vvsc",											//Mi-8MTV3 (Cargo)
 	"RHS_Mi24P_AT_vvsc",												//Mi-24P (AT)
 	"RHS_Mi24V_AT_vvsc"													//Mi-24V (AT)
 ];
@@ -156,6 +159,7 @@ opfor_troup_transports = [
 // Enemy rotary-wings that will need to spawn in flight.
 opfor_choppers = [
 	"RHS_Mi8mt_Cargo_vvsc",												//Mi-8MT (Cargo)
+	"RHS_Mi8mtv3_Cargo_vvsc",											//Mi-8MTV3 (Cargo)
 	"RHS_Mi24P_AT_vvsc",												//Mi-24P (AT)
 	"RHS_Mi24V_AT_vvsc",												//Mi-24V (AT)
 	"RHS_Ka52_vvsc"														//Ka-52
@@ -163,7 +167,8 @@ opfor_choppers = [
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
-	"UK3CB_CW_SOV_O_LATE_Su25SM",										//Su-25
-	"UK3CB_CW_SOV_O_LATE_Su25SM_KH29",									//Su-25 (KH29)
-	"UK3CB_CW_SOV_O_LATE_MIG29S"										//Mig 29S
+	"RHS_Su25SM_vvs",													//Su-25 Grey
+	"RHS_Su25SM_vvsc",													//Su-25 Camo
+	"rhs_mig29sm_vvsc",													//Mig 29SM
+	"rhs_mig29s_vvsc"													//Mig 29S									//Mig 29S
 ];
