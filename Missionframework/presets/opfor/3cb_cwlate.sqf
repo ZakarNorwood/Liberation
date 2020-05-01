@@ -141,7 +141,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"UK3CB_CW_SOV_O_LATE_T55",											//T-55A
 	"RHS_Mi24P_AT_vvsc",												//Mi-24P (AT)
 	"RHS_Mi24V_AT_vvsc",												//Mi-24V (AT)
-	"RHS_Mi8mt_Cargo_vvsc"												//Mi-8MT (Cargo)
+	"RHS_Mi8mt_Cargo_vvsc",												//Mi-8MT (Cargo)
 	"RHS_Mi8mtv3_Cargo_vvsc",											//Mi-8MTV3 (Cargo)
 	"rhs_mi28n_vvsc"													//Mi-28N
 ];
