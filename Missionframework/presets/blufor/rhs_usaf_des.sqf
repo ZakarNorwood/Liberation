@@ -18,7 +18,7 @@ FOB_box_typename = "B_Slingload_01_Cargo_F";                            // This 
 FOB_truck_typename = "rhsusf_M1078A1P2_B_D_CP_fmtv_usarmy";             // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                   // This is the virtual arsenal as portable supply crates.
 Respawn_truck_typename = "rhsusf_M1085A1P2_B_D_Medical_fmtv_usarmy";    // This is the mobile respawn (and medical) truck.
-huron_typename = "rhsusf_CH53E_USMC";                                   // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
+huron_typename = "rhsusf_CH53E_USMC_cargo";                                   // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "rhsusf_usmc_marpat_d_combatcrewman";               // This defines the crew for vehicles.
 pilot_classname = "rhsusf_usmc_marpat_d_helipilot";                     // This defines the pilot for helicopters.
 KP_liberation_little_bird_classname = "RHS_UH1Y_UNARMED";               // These are the little birds which spawn on the Freedom or at Chimera base.
@@ -130,6 +130,7 @@ air_vehicles = [
     ["RHS_UH60M_d",250,80,150],                                          // UH-60M
     ["RHS_UH60M_MEV2_d",300,0,150],                                      // UH-60M MEV2
     ["rhsusf_CH53E_USMC_D",300,0,175],                                   // CH-53E Super Stallion
+	["rhsusf_CH53E_USMC_D_cargo",375,0,100],                             // CH-53E Super Stallion Cargo
     ["rhsusf_CH53E_USMC_GAU21",300,100,175],                             // CH-53E Super Stallion (GAU-21)
     ["FIR_AV8B_Blank",2000,1750,450]                                     // AV8B
 ];
