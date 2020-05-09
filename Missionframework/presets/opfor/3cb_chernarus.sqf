@@ -97,7 +97,7 @@ opfor_battlegroup_vehicles = [
 	"RHS_Ural_MSV_01",													//Ural-4320 Transport (Covered)
 	"rhs_btr70_msv",													//BTR-70
 	"rhs_btr80_msv",													//BTR-80
-	"rhs_btr80a_msv"													//BTR-80A
+	"rhs_btr80a_msv",													//BTR-80A
 	"rhs_bmp2d_msv",													//BMP-2D
 	"rhs_bmp2k_msv",													//BMP-2K
 	"rhs_brm1k_msv",													//BRM-1K
