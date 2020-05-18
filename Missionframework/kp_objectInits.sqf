@@ -24,7 +24,7 @@ KPLIB_objectInits = [
     [["gm_ge_army_kat1_454_cargo", "gm_ge_army_kat1_454_cargo_win"], {_this animateSource ["cover_unhide", 0, true];}],
 
     // 15th sign textures
-    [["Land_Billboard_F"], {_this setObjectTextureGlobal [0,"res\REC_S1RD.jpg"];}],
+    [["Land_Billboard_F"], {_this setObjectTextureGlobal [0,"res\s9-events-31MAY20.jpg"];}],
     [["SignAd_Sponsor_F"], {_this setObjectTextureGlobal [0,"res\RECRules.jpg"];}],
     [[Arsenal_typename], {[_this] execVM "scripts\armory\MEU_Armory.sqf";}]
 ];
