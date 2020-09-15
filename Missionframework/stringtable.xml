@@ -13,10 +13,10 @@
         <!-- Portuguese localization made by NomadRomeo: https://github.com/NomadRomeo -->
         <!-- Korean localization made by Panzer: https://github.com/PanzerKoLee -->
         <Key ID="STR_MISSION_TITLE">
-            <Original>15th MEU Liberation v0.96.6 R8</Original>
+            <Original>15th MEU Liberation v0.96.6 R9</Original>
         </Key>
         <Key ID="STR_MISSION_VERSION">
-            <Original>v0.96.6 R8</Original>
+            <Original>v0.96.6 R9</Original>
         </Key>
 
         <!-- 15th MEU custom strings -->
