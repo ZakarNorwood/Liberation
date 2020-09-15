@@ -89,25 +89,31 @@ if(isServer) then {
     GET_PARAM_BOOL(KPLIB_respawnOnAttackedSectors, "AttackedSectorRespawn", 0);
     GET_PARAM_BOOL(KP_liberation_ailogistics, "AiLogistics", 1);
     GET_PARAM_BOOL(KP_liberation_cr_param_buildings, "CR_Building", 0);
-    GET_PARAM(GRLIB_halo_param, "HaloJump", 1);
+    //GET_PARAM(GRLIB_halo_param, "HaloJump", 1);
+	GRLIB_halo_param = 0;
     GET_PARAM_BOOL(KP_liberation_clear_cargo, "ClearCargo", 1);
     GET_PARAM(KP_liberation_allowEnemiesInImmobile, "AllowEnemiesInImmobile", 50);
     GET_PARAM(KP_liberation_delayDespawnMax, "DelayDespawnMax", 5);
     GET_PARAM_BOOL(KP_liberation_limited_zeus, "LimitedZeus", 1);
-    GET_PARAM_BOOL(KP_liberation_commander_zeus, "CommanderZeus", 1);
+    //GET_PARAM_BOOL(KP_liberation_commander_zeus, "CommanderZeus", 1);
+	GRLIB_commander_zeus_param = 0;
     GET_PARAM_BOOL(KP_liberation_enemies_zeus, "ZeusAddEnemies", 1);
     GET_PARAM_BOOL(KP_liberation_high_command, "HighCommand", 1);
     GET_PARAM(KP_liberation_suppMod, "SuppMod", 1);
-    GET_PARAM_BOOL(KP_liberation_tutorial, "Tutorial", 1);
+    //GET_PARAM_BOOL(KP_liberation_tutorial, "Tutorial", 1);
+	GRLIB_tutorial_param = 0;
 
     // Technical Options
     ["--- Technical Options ---", "PARAM"] call KPLIB_fnc_log;
-    GET_PARAM_BOOL(GRLIB_permissions_param, "Permissions", 1);
+    GET_PARAM_BOOL(GRLIB_permissions_param, "Permissions", 0);
     GET_PARAM(GRLIB_cleanup_vehicles, "CleanupVehicles", 2);
-    GET_PARAM_BOOL(GRLIB_introduction, "Introduction", 1);
-    GET_PARAM_BOOL(GRLIB_deployment_cinematic, "DeploymentCinematic", 1);
+    //GET_PARAM_BOOL(GRLIB_introduction, "Introduction", 0);
+	GRLIB_introduction_param = 0;
+    //GET_PARAM_BOOL(GRLIB_deployment_cinematic, "DeploymentCinematic", 0);
+	GRLIB_deployment_cinematic_param = 0;
     GET_PARAM_BOOL(GRLIB_use_whitelist, "Whitelist", 0);
-    GET_PARAM(KP_liberation_restart, "ServerRestart", 0);
+    //GET_PARAM(KP_liberation_restart, "ServerRestart", 4);
+	GRLIB_restart_param = 1;
 
     GREUH_allow_mapmarkers = KP_liberation_mapmarkers; publicVariable "GREUH_allow_mapmarkers";
     GREUH_allow_platoonview = KP_liberation_mapmarkers; publicVariable "GREUH_allow_platoonview";
