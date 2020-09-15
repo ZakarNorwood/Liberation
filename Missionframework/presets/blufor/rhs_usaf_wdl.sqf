@@ -81,6 +81,9 @@ light_vehicles = [
     ["rhsusf_m1025_w_mk19",100,60,50],                                  // M1025A2 (Mk19)
     ["rhsusf_m998_w_2dr_fulltop",0,0,0],                                // M1097A2 (2D)
     ["rhsusf_m998_w_2dr_halftop",0,0,0],                                // M1097A2 (2D / open back)
+    ["rhsusf_m1045_d_s",100,20,100],                                    // M1045 (TOW)
+    ["rhsusf_m998_d_s_4dr",0,0,0],                                      // M998 (4D / Open Top)
+    ["rhsusf_M1078A1R_SOV_M2_D_fmtv_socom",50,50,50],                   // M1078 SOV (M2)
     ["rhsusf_M1220_usarmy_wd",120,0,60],                                // M1220
     ["rhsusf_M1220_M2_usarmy_wd",120,40,60],                            // M1220 (M2)
     ["rhsusf_M1220_MK19_usarmy_wd",120,60,60],                          // M1220 (Mk19)
@@ -129,8 +132,8 @@ air_vehicles = [
     ["RHS_UH60M2",250,0,150],                                            // UH-60M (Unarmed)
     ["RHS_UH60M",250,80,150],                                            // UH-60M
     ["RHS_UH60M_MEV2",300,0,150],                                        // UH-60M MEV2
-    ["rhsusf_CH53E_USMC",300,0,175],                              	     // CH-53E Super Stallion
-	["rhsusf_CH53E_USMC_cargo",375,0,100],                             	 // CH-53E Super Stallion Cargo
+    ["rhsusf_CH53E_USMC",300,0,175],                                     // CH-53E Super Stallion
+    ["rhsusf_CH53E_USMC_cargo",375,0,100],                               // CH-53E Super Stallion Cargo
     ["rhsusf_CH53E_USMC_GAU21",300,100,175],                             // CH-53E Super Stallion (GAU-21)
     ["FIR_AV8B_Blank",2000,1750,450]                                     // AV8B
 ];
