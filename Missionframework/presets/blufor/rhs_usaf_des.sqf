@@ -114,6 +114,7 @@ heavy_vehicles = [
     ["rhsusf_m113d_usarmy",200,40,100],                                  // M113A3 (M2)
     ["rhsusf_m113d_usarmy_MK19",200,60,100],                             // M113A3 (Mk19)
     ["rhsusf_m113d_usarmy_medical",200,0,100],                           // M113A3 (Medical)
+    ["UK3CB_B_AAV_US_DES",250,150,100],                                  // 3CB AAVP-7A1;
     ["RHS_M2A2_BUSKI",300,200,150],                                      // M2A2ODS (Busk I)
     ["RHS_M2A3_BUSKIII",300,250,175],                                    // M2A3 (Busk III)
     ["RHS_M6",300,250,175],                                              // M6A2

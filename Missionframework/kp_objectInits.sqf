@@ -23,6 +23,9 @@ KPLIB_objectInits = [
     // Hide Cover on big GM trucks
     [["gm_ge_army_kat1_454_cargo", "gm_ge_army_kat1_454_cargo_win"], {_this animateSource ["cover_unhide", 0, true];}],
 
+    // AAVP-7A1 Thermal Optics
+    [["UK3CB_B_AAV_US_DES", "UK3CB_B_AAV_US_WDL"], {_this spawn { sleep 10; _this disableTIEquipment false; };}],
+
     // 15th sign textures
     [["Land_Billboard_F"], {_this setObjectTextureGlobal [0,"res\REC_S1RD.jpg"];}],
     [["SignAd_Sponsor_F"], {_this setObjectTextureGlobal [0,"res\RECRules.jpg"];}]
