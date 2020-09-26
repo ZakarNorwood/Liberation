@@ -81,9 +81,8 @@ light_vehicles = [
     ["rhsusf_m1025_w_mk19",100,60,50],                                  // M1025A2 (Mk19)
     ["rhsusf_m998_w_2dr_fulltop",0,0,0],                                // M1097A2 (2D)
     ["rhsusf_m998_w_2dr_halftop",0,0,0],                                // M1097A2 (2D / open back)
-    ["rhsusf_m1045_d_s",100,20,100],                                    // M1045 (TOW)
-    ["rhsusf_m998_d_s_4dr",0,0,0],                                      // M998 (4D / Open Top)
-    ["rhsusf_M1078A1R_SOV_M2_D_fmtv_socom",50,50,50],                   // M1078 SOV (M2)
+    ["rhsusf_m1045_w_s",100,20,100],                                    // M1045 (TOW)
+    ["rhsusf_m998_w_s_4dr",0,0,0],                                      // M998 (4D / Open Top)
     ["rhsusf_M1220_usarmy_wd",120,0,60],                                // M1220
     ["rhsusf_M1220_M2_usarmy_wd",120,40,60],                            // M1220 (M2)
     ["rhsusf_M1220_MK19_usarmy_wd",120,60,60],                          // M1220 (Mk19)
@@ -244,7 +243,7 @@ support_vehicles = [
     ["ACE_Wheel",10,0,0],
     ["ACE_Track",10,0,0],
     ["B_APC_Tracked_01_CRV_F",500,250,350],                             // CRV-6e Bobcat
-    ["rhsusf_M1078A1R_SOV_M2_D_fmtv_socom",400,200,300],                // M1078A1R SOV
+    ["rhsusf_M1078A1R_SOV_M2_WD_fmtv_socom",400,200,300],               // M1078A1R SOV
     ["B_Truck_01_Repair_F",325,0,75],                                   // HEMTT Repair
     ["B_Truck_01_fuel_F",125,0,275],                                    // HEMTT Fuel
     ["B_Truck_01_ammo_F",125,200,75],                                   // HEMTT Ammo
