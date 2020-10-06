@@ -113,7 +113,10 @@ KP_liberation_preset_blufor = 0;
 14 = CUP Takistani Army
 15 = CUP Chernarussian Movement of the Red Star
 16 = CUP Armed Forces of the Russian Federation (MSV - EMR)
-17 = CUP Armed Forces of the Russian Federation (Modern MSV) */
+17 = CUP Armed Forces of the Russian Federation (Modern MSV)
+18 - 3CB Chernarus Anti-Government Militia
+19 - 3CB Cold War (Late) Soviet Forces
+20 - 3CB Takistan Pro-Government Militia */
 KP_liberation_preset_opfor = 0;
 
 /* Resistance preset:
@@ -587,8 +590,8 @@ box_transport_config = [
     ["RHS_Ural_Open_MSV_01", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
     ["RHS_Ural_Open_VDV_01", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
     ["RHS_Ural_VDV_01", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
-    ["rhsusf_CH53E_USMC_D", -11.0, [0,2.5,1.4], [0,2.5,2.6], [0,1.0,1.4], [0,1.0,2.6], [0,-0.5,1.4], [0,-0.5,2.6], [0,-0.5,1.4], [0,-0.5,2.6], [0,-2.0,1.4], [0,-2.5,2.6], [0,-3.5,1.4], [0,-3.5,2.6]],
-    ["rhsusf_CH53E_USMC", -11.0, [0,2.5,1.4], [0,2.5,2.6], [0,1.0,1.4], [0,1.0,2.6], [0,-0.5,1.4], [0,-0.5,2.6], [0,-0.5,1.4], [0,-0.5,2.6], [0,-2.0,1.4], [0,-2.5,2.6], [0,-3.5,1.4], [0,-3.5,2.6]],
+	["rhsusf_CH53E_USMC", -11.0, [0,2.5,-3.3], [0,2.5,-2.1], [0,1.0,-3.3], [0,1.0,-2.1], [0,-0.5,-3.3], [0,-0.5,-2.1], [0,-0.5,-3.3], [0,-0.5,-2.1], [0,-2.0,-3.3], [0,-2.5,-2.1], [0,-3.5,-3.3], [0,-3.5,-2.1]],
+	["rhsusf_CH53E_USMC_D", -11.0, [0,2.5,-3.3], [0,2.5,-2.1], [0,1.0,-3.3], [0,1.0,-2.1], [0,-0.5,-3.3], [0,-0.5,-2.1], [0,-0.5,-3.3], [0,-0.5,-2.1], [0,-2.0,-3.3], [0,-2.5,-2.1], [0,-3.5,-3.3], [0,-3.5,-2.1]],
     ["rhsusf_M1078A1P2_B_D_flatbed_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
     ["rhsusf_M1078A1P2_B_D_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
     ["rhsusf_M1078A1P2_B_M2_D_flatbed_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],

@@ -13,11 +13,20 @@
         <!-- Portuguese localization made by NomadRomeo: https://github.com/NomadRomeo -->
         <!-- Korean localization made by Panzer: https://github.com/PanzerKoLee -->
         <Key ID="STR_MISSION_TITLE">
-            <Original>CTI 34 KP Liberation v0.96.6</Original>
+            <Original>15th MEU Liberation v0.96.6 R9</Original>
         </Key>
         <Key ID="STR_MISSION_VERSION">
-            <Original>v0.96.6</Original>
+            <Original>v0.96.6 R9</Original>
         </Key>
+
+        <!-- 15th MEU custom strings -->
+        <Key ID="STR_REC_SIGN">
+            <Original>Recruiting Sign</Original>
+        </Key>
+        <Key ID="STR_RULES_SIGN">
+            <Original>Rules Sign (Small)</Original>
+        </Key>
+
         <Key ID="STR_Deploy_OnPoint">
             <Original>Deploy</Original>
             <French>Déploiement</French>
@@ -530,7 +539,7 @@
             <Korean>-- 재배치 --</Korean>
         </Key>
         <Key ID="STR_BUILD_CREW">
-            <Original>Build (Crew)</Original>
+            <Original>DO NOT USE</Original>
             <French>Construire (Equipage)</French>
             <German>Bauen (Besatzung)</German>
             <Spanish>Construir (Equipo)</Spanish>
@@ -4801,7 +4810,7 @@
 
         <!-- English adaptations in v0.95, need translations. -->
         <Key ID="STR_MISSION_DESCRIPTION">
-            <Original>Liberate the region from the enemy oppression! Strategy will be key! Good luck soldiers.</Original>
+            <Original>15th MEU Public Server Liberation v0.96.6 R8</Original>
             <French>Avec le pouvoir de la Liberté et de la Démocratie votre mission est de libérer Altis de l'oppression de l'OPFOR.</French>
             <German>Befreie das Gebiet von der feindlichen Unterdrückung mit der Kraft von Freiheit und Demokratie</German>
             <Spanish>Con el poder de la Libertad y la Democracia, debes liberar Altis de la opresión del OPFOR</Spanish>
@@ -6815,15 +6824,15 @@
             <Korean>폭파된 폭발물 : %1</Korean>
         </Key>
         <Key ID="STR_STATS_POTATO">
-            <Original>Number of Potato 01 losses: %1</Original>
-            <French>Pertes de Potato 01: %1</French>
-            <German>Verluste von Potato 01: %1</German>
-            <Spanish>Número de pérdidas de Potato 01: %1</Spanish>
-            <Russian>Количество потерянных Potato 01: %1</Russian>
-            <Italian>Numero di Potato 01 persi: %1</Italian>
+            <Original>Number of Warhorse 3-1 losses: %1</Original>
+            <French>Pertes de Warhorse 3-1: %1</French>
+            <German>Verluste von Warhorse 3-1: %1</German>
+            <Spanish>Número de pérdidas de Warhorse 3-1: %1</Spanish>
+            <Russian>Количество потерянных Warhorse 3-1: %1</Russian>
+            <Italian>Numero di Warhorse 3-1 persi: %1</Italian>
             <Chinesesimp>损失的斯巴达01号： %1</Chinesesimp>
-            <Turkish>Potato 01 kayıpları: %1</Turkish>
-            <Portuguese>Número de baixas de Potato 01: %1</Portuguese>
+            <Turkish>Warhorse 3-1 kayıpları: %1</Turkish>
+            <Portuguese>Número de baixas de Warhorse 3-1: %1</Portuguese>
             <Korean> 파괴된 재투입차량 : %1</Korean>
         </Key>
         <Key ID="STR_STATS_RABBITS">
