@@ -12,7 +12,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=689;
+		nextID=717;
 	};
 	class Camera
 	{
@@ -23494,7 +23494,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={194.10223,24.629892,2994.8381};
+				position[]={194.10223,24.629892,2994.8794};
 				angles[]={0,3.1415927,0};
 			};
 			side="Empty";
@@ -23504,7 +23504,7 @@ class Mission
 			};
 			id=3932;
 			type="Land_Billboard_F";
-			atlOffset=115.64526;
+			atlOffset=115.64301;
 			class CustomAttributes
 			{
 				class Attribute0
