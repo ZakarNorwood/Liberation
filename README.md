@@ -1,8 +1,17 @@
 # 15th MEU Realism Unit: Liberation
 
-![MSOT marine helping a civilian, with the text: Join us 15thmeu.net](Missionframework/res/liberation15a.jpg)
+[![MSOT marine helping a civilian, with the text: Join us 15thmeu.net](Missionframework/res/liberation15a.jpg)](https://15thmeu.net)
 
 A fork of [KP-Liberation](https://github.com/KillahPotatoes/KP-Liberation). For more information on the upstream project, please see their [README](https://github.com/KillahPotatoes/KP-Liberation/blob/master/README.md).
+
+## 15th MEU Realism Unit
+
+We are an Arma 3 realism unit with a very high view of the US Marine Corps, and a very high view on realistic gaming. We gather and play to simulate a Marine Corps environment, in honor of the real Leathernecks who serve.
+
+The 15th MEU Realism Unit is one of the longest standing realism units within the Arma community, having been activated in June 2007. Since that time we have experienced many expansions and reductions, and various changes of command. Our foundation is solid, having stood some of the toughest tests realism gaming, and group gaming as a whole, can muster. We are here to stay, and will continue to set the standard for realism gaming as our founders laid the basis for, even thought they have long departed our ranks.
+
+* Our Web site: https://15thmeu.net.
+* The actual 15th MEU: https://www.15thmeu.marines.mil/.
 
 ## Customizations
 
