@@ -806,7 +806,10 @@ GRLIB_arsenal_magazines = [
     "rhsusf_m112_mag",
     "rhsusf_m112x4_mag",
     "rhsusf_mine_m14_mag",
-    "SatchelCharge_Remote_Mag"
+    "SatchelCharge_Remote_Mag",
+
+    // Misc
+    "Laserbatteries"
 ];
 
 GRLIB_arsenal_items = [
