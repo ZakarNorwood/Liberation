@@ -46,11 +46,20 @@
 <Project name="Liberation">
     <Package name="Liberation">
         <Key ID="STR_MISSION_TITLE">
-            <Original>CTI 34 KP Liberation v0.96.7a</Original>
+            <Original>15th MEU Liberation v1.1.0</Original>
         </Key>
         <Key ID="STR_MISSION_VERSION">
-            <Original>v0.96.7a</Original>
+            <Original>v1.1.0</Original>
         </Key>
+
+        <!-- 15th MEU custom strings -->
+        <Key ID="STR_REC_SIGN">
+            <Original>Recruiting Sign</Original>
+        </Key>
+        <Key ID="STR_RULES_SIGN">
+            <Original>Rules Sign (Small)</Original>
+        </Key>
+
         <Key ID="STR_Deploy_OnPoint">
             <Original>Deploy</Original>
             <French>Déploiement</French>
@@ -610,18 +619,7 @@
             <Czech>-- ZNOVUNASAZENÍ --</Czech>
         </Key>
         <Key ID="STR_BUILD_CREW">
-            <Original>Build (Crew)</Original>
-            <French>Construire (Equipage)</French>
-            <German>Bauen (Besatzung)</German>
-            <Spanish>Construir (Equipo)</Spanish>
-            <Russian>Создать (Экипаж)</Russian>
-            <Italian>Crea Equipaggio</Italian>
-            <Chinesesimp>建造（含成员）</Chinesesimp>
-            <Chinese>建造（包含成員）</Chinese>
-            <Turkish>Ekip Oluştur</Turkish>
-            <Portuguese>Construir (tripulado)</Portuguese>
-            <Korean>배치(승무원포함)</Korean>
-            <Czech>Postavit (Mužstvo)</Czech>
+            <Original>DO NOT USE</Original>
         </Key>
         <Key ID="STR_LIGHT_RIFLE_SQUAD">
             <Original>Light Rifle Squad</Original>
@@ -4774,18 +4772,7 @@
 
         <!-- English adaptations in v0.95, need translations. -->
         <Key ID="STR_MISSION_DESCRIPTION">
-            <Original>Liberate the region from the enemy oppression! Strategy will be key! Good luck soldiers.</Original>
-            <French>Avec le pouvoir de la Liberté et de la Démocratie votre mission est de libérer Altis de l'oppression de l'OPFOR.</French>
-            <German>Befreie das Gebiet von der feindlichen Unterdrückung mit der Kraft von Freiheit und Demokratie</German>
-            <Spanish>Con el poder de la Libertad y la Democracia, debes liberar Altis de la opresión del OPFOR</Spanish>
-            <Russian>С помощью сил "свободы" и "демократии" вы должны освободить регион от угнетения OPFOR.</Russian>
-            <Italian>Libera la regione dall'oppressione nemica! La strategia è la chiave! Buona fortuna soldati.</Italian>
-            <Chinesesimp>从敌人手中解放这个地区！战略是制胜关键！士兵们祝你们好运。</Chinesesimp>
-            <Chinese>從敵人手中解放此區域！戰略是致勝關鍵！士兵們，祝好運！</Chinese>
-            <Turkish>Bu bölgeyi düşman etkisinden kurtar! Strateji anahtardır! Bol şanslar askerler.</Turkish>
-            <Portuguese>Libere a região da opressão inimiga! Estratégia será essencial! Boa sorte infantaria.</Portuguese>
-            <Korean>적의 수중에서 이 지역을 탈환하자! 전략이 승리의 관건이다! 병사들이여, 행운을 빈다.</Korean>
-            <Czech>Osvoboďte oblast od nepřátelského útisku. Strategie je klíčová! Hodně štěstí vojáci.</Czech>
+            <Original>Fight alongside members of the 15th MEU Realism Unit as you work together to Capture The Island.</Original>
         </Key>
         <Key ID="STR_TUTO_TITLE1">
             <Original>1. Introduction</Original>
@@ -6674,15 +6661,15 @@
             <Czech>Výbuch miny: %1</Czech>
         </Key>
         <Key ID="STR_STATS_POTATO">
-            <Original>Number of Potato 01 losses: %1</Original>
-            <French>Pertes de Potato 01: %1</French>
-            <German>Verluste von Potato 01: %1</German>
-            <Spanish>Número de pérdidas de Potato 01: %1</Spanish>
-            <Russian>Количество потерянных Potato 01: %1</Russian>
-            <Italian>Numero di Potato 01 persi: %1</Italian>
+            <Original>Number of Warhorse 3-1 losses: %1</Original>
+            <French>Pertes de Warhorse 3-1: %1</French>
+            <German>Verluste von Warhorse 3-1: %1</German>
+            <Spanish>Número de pérdidas de Warhorse 3-1: %1</Spanish>
+            <Russian>Количество потерянных Warhorse 3-1: %1</Russian>
+            <Italian>Numero di Warhorse 3-1 persi: %1</Italian>
             <Chinesesimp>损失的斯巴达01号： %1</Chinesesimp>
-            <Turkish>Potato 01 kayıpları: %1</Turkish>
-            <Portuguese>Número de baixas de Potato 01: %1</Portuguese>
+            <Turkish>Warhorse 3-1 kayıpları: %1</Turkish>
+            <Portuguese>Número de baixas de Warhorse 3-1: %1</Portuguese>
             <Korean> 파괴된 재투입차량 : %1</Korean>
             <Czech>Počet ztracených Potato 01: %1</Czech>
         </Key>

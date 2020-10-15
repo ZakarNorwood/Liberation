@@ -13,6 +13,7 @@ import { Preset, FolderStructureInfo } from "./src";
 
 
 const presets: Preset[] = require('./_presets.json');
+const version = "v1.1.0";
 
 /**
  * Mission folders configuration
@@ -87,7 +88,7 @@ for (let preset of presets) {
                     }
 
                     // add version number and map name to mission name
-                    return content.replace(nameRegex, `$1CTI 34 KP Liberation ${preset.mapDisplay || preset.map} ${version}$3`);
+                    return content.replace(nameRegex, `$115th MEU Liberation ${preset.mapDisplay || preset.map} ${version}$3`);
                 }))
                 .pipe(gulp.dest(mission.getOutputDir(), { overwrite: true, }))
             ;
@@ -102,7 +103,7 @@ for (let preset of presets) {
     gulp.task('pack_' + taskName, () => {
         return gulp.src(mission.getOutputDir() + '/**/*')
             .pipe(gulpPbo({
-                fileName: mission.getFullName() + '.pbo',
+                fileName: `${mission.getName()}.${version}.pbo`,
                 progress: false,
                 verbose: false,
                 // Do not compress (SLOW)
@@ -131,7 +132,7 @@ for (let preset of presets) {
             })
             .pipe(
                 gulp.src(
-                    resolve(mission.getWorkDir(), 'pbo', mission.getFullName() + '.pbo'), {
+                    resolve(mission.getWorkDir(), 'pbo', `${mission.getName()}.${version}.pbo`), {
                         base: resolve(mission.getWorkDir(), 'pbo') // Change base dir to have correct relative paths in ZIP
                     })
             )

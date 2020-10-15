@@ -132,7 +132,10 @@ KP_liberation_preset_blufor = 0;
 17 = CUP Armed Forces of the Russian Federation (Modern MSV)
 18 = CUP Chernarus Defense Force
 19 = CUP British Armed Forces (Desert)
-20 = CUP British Armed Forces (Woodland) */
+20 = CUP British Armed Forces (Woodland)
+21 - 3CB Chernarus Anti-Government Militia
+22 - 3CB Cold War (Late) Soviet Forces
+23 - 3CB Takistan Pro-Government Militia */
 KP_liberation_preset_opfor = 0;
 
 /* Resistance preset:

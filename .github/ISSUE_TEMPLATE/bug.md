@@ -1,50 +1,25 @@
 ---
 name: Bug report
-about: 'Report a bug'
-
+about: 'Report something broken or unexpected behaviour.'
+label: bug
 ---
 
-## Bug report
-<!-- Your issue may already be reported! -->
-<!-- Please search issue tracker before submiting your report. -->
-<!-- 
-    https://github.com/KillahPotatoes/KP-Liberation/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Abug
- -->
- 
- <!-- Otherwise use the template below. This ensures that we have all needed information for a first investigation. -->
- <!-- Please understand that we close your report uncommented if you don't use the template so we would need to ask everything which is already asked in it. -->
+**Describe the bug**
+A clear and concise description of what is broken or the unexpected behaviour.
 
-### Basic Information
-<!-- Include as many relevant details about the environment you experienced the bug in -->
-**Mission version:**
+**To Reproduce**
+Precise steps to reproduce the behaviour:
 
-**Map used:**
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-**Mods used:**
+**Expected behaviour**
+A clear and concise description of what you expected to happen.
 
-**Dedicated or local game:**
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
 
-**Source of the mission file (URL):**
-<!-- It is important for us if you are using an official realease, -->
-<!-- or some derivative version. -->
-
-### Individual Things
-**Did you edit anything within the mission files?**
-
-
-**If yes, what did you edit exactly?**
-
-
-### Short Issue Description
-
-
-### Expected Behaviour
-<!-- If you're describing a bug, tell us what should happen -->
-
-
-### Steps to Reproduce the Issue
-<!-- Provide an unambiguous set of steps to reproduce this bug. -->
-<!-- Include code to reproduce, if relevant -->
-
-
-### Screenshots, Serverlog or any other helpful Information
+**Additional context**
+Add any other context about the problem here.

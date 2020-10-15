@@ -55,6 +55,15 @@ if ((isNil {player getVariable "bis_revive_ehHandleHeal"} || isDedicated) && !(b
     [] call bis_fnc_reviveInit;
 };
 
+//Radio Programming\\
+[] execVM "meuRadio_Nofreq.sqf";
+
+//briefing map entries\\
+[] execVM "briefing.sqf";
+
+//Advanced Towing
+[] execVM "scripts\fn_advancedTowingInit.sqf";
+
 KPLIB_init = true;
 
 // Notify clients that server is ready
