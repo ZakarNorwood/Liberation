@@ -1300,7 +1300,6 @@ GRLIB_arsenal_items = [
     "H_Booniehat_tna_F",
     "H_Booniehat_wdl",
     "H_Cap_headphones",
-    "H_Cap_headphones",
     "H_Cap_oli",
     "H_Cap_tan",
     "H_CrewHelmetHeli_B",
