@@ -9856,7 +9856,7 @@ class Mission
 			dataType="Marker";
 			position[]={21014.146,45.974365,1628.3212};
 			name="ACE_2_1_3_1_1_1_1_1";
-			text="TS | SERVER - 104.243.44.138 | PW - 201915";
+			text="TS | ts3.15thmeu.net | PW: 201915";
 			type="mil_dot";
 			id=6721;
 			atlOffset=231.94437;
