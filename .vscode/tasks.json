@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "gulp - build, pbo",
+            "group": "build",
+            "type": "shell",
+            "command": "npx",
+            "args": ["gulp", "--series", "build", "pbo"],
+            "options": {
+                "cwd": "${workspaceFolder}\\_tools"
+            },
+            "problemMatcher": ["$gulp-tsc"]
+        },
+        {
+            "label": "gulp - clean",
+            "type": "shell",
+            "command": "npx",
+            "args": ["gulp", "clean"],
+            "options": {
+                "cwd": "${workspaceFolder}\\_tools"
+            },
+            "problemMatcher": ["$gulp-tsc"]
+        }
+    ]
+}
