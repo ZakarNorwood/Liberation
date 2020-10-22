@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=545;
 	class ItemIDProvider
 	{
-		nextID=6829;
+		nextID=6831;
 	};
 	class MarkerIDProvider
 	{
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1357;
+		nextID=1366;
 	};
 	class Camera
 	{
@@ -71,13 +71,14 @@ addons[]=
 	"A3_Weapons_F_Items",
 	"ace_medical_engine",
 	"ace_medical_treatment",
-	"rhsusf_c_ch53"
+	"rhsusf_c_ch53",
+	"UK3CB_Factions_Vehicles_AAV"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=24;
+		items=25;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -245,6 +246,11 @@ class AddonsMetaData
 			name="CH-53 Helicopter";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
+		};
+		class Item24
+		{
+			className="UK3CB_Factions_Vehicles_AAV";
+			name="UK3CB_Factions_Vehicles_AAV";
 		};
 	};
 };
@@ -414,7 +420,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=553;
+		items=555;
 		class Item0
 		{
 			dataType="Marker";
@@ -9115,7 +9121,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={27445.506,0,5296.2451};
+				position[]={27435.434,0,5282.938};
 				angles[]={0,3.1415927,0};
 			};
 			side="Empty";
@@ -9132,7 +9138,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={27455.506,0,5296.2451};
+				position[]={27466.23,0,5283.0996};
 				angles[]={0,3.1415927,0};
 			};
 			side="Empty";
@@ -9507,7 +9513,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=1;
+							value=0;
 						};
 					};
 				};
@@ -9545,7 +9551,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="0";
+							value="2";
 						};
 					};
 				};
@@ -20583,16 +20589,132 @@ class Mission
 				nAttributes=3;
 			};
 		};
+		class Item553
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={27445.566,2.6341405,5289.6641};
+				angles[]={0,3.1502495,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=6829;
+			type="UK3CB_B_AAV_US_WDL";
+			atlOffset=185.97;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""FirstAidKit""],[10]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="uk3cb_enable_TI";
+					expression="if (!is3DEN) then { _this spawn { sleep 10; _this disableTIEquipment false; }; };";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item554
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={27455.033,2.6341405,5289.7471};
+				angles[]={0,3.1502495,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=6830;
+			type="UK3CB_B_AAV_US_WDL";
+			atlOffset=185.97;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""FirstAidKit""],[10]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="uk3cb_enable_TI";
+					expression="if (!is3DEN) then { _this spawn { sleep 10; _this disableTIEquipment false; }; };";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=5;
+			nextID=7;
 		};
 		class Links
 		{
-			items=5;
+			items=7;
 			class Item0
 			{
 				linkID=0;
@@ -20637,6 +20759,26 @@ class Mission
 			{
 				linkID=4;
 				item0=6828;
+				item1=6716;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item5
+			{
+				linkID=5;
+				item0=6829;
+				item1=6716;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item6
+			{
+				linkID=6;
+				item0=6830;
 				item1=6716;
 				class CustomData
 				{
