@@ -6,6 +6,7 @@ import * as gulpZip from "gulp-zip";
 import * as vinylPaths from "vinyl-paths";
 import * as del from "del";
 
+import { readFileSync } from "fs";
 import { resolve } from "path";
 
 import { MissionPaths } from "./src";
@@ -13,7 +14,7 @@ import { Preset, FolderStructureInfo } from "./src";
 
 
 const presets: Preset[] = require('./_presets.json');
-const version = "R9";
+const version = readFileSync("../VERSION").toString().trim();
 
 /**
  * Mission folders configuration
@@ -78,8 +79,6 @@ for (let preset of presets) {
 
             return gulp.src(mission.getFrameworkPath().concat('/stringtable.xml'))
                 .pipe(gulpModify((content: string) => {
-                    const version: string = content.match(versionRegex)['groups']['version'];
-
                     return content.replace(nameRegex, `$115th MEU Liberation ${preset.mapDisplay || preset.map} ${version}$3`);
                 }))
                 .pipe(gulp.dest(mission.getOutputDir(), { overwrite: true, }))
