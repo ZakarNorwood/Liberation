@@ -6,6 +6,7 @@ import * as gulpZip from "gulp-zip";
 import * as vinylPaths from "vinyl-paths";
 import * as del from "del";
 
+import { readFileSync } from "fs";
 import { resolve } from "path";
 
 import { MissionPaths, uploadLegacy } from "./src";
@@ -13,7 +14,7 @@ import { Preset, FolderStructureInfo } from "./src";
 
 
 const presets: Preset[] = require('./_presets.json');
-const version = "v1.1.0";
+let version = readFileSync("../VERSION").toString().trim();
 
 /**
  * Mission folders configuration
@@ -79,8 +80,6 @@ for (let preset of presets) {
 
             return gulp.src(mission.getFrameworkPath().concat('/stringtable.xml'))
                 .pipe(gulpModify((content: string) => {
-                    let version: string = content.match(versionRegex)['groups']['version'];
-
                     // append commit hash and mark as dev version in PRs
                     if ('pull_request' === process.env.GITHUB_EVENT_NAME) {
                         content = content.replace(versionRegex, `$1${version}-${process.env.GITHUB_SHA}$3`);

@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=545;
 	class ItemIDProvider
 	{
-		nextID=3908;
+		nextID=3910;
 	};
 	class MarkerIDProvider
 	{
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=776;
+		nextID=796;
 	};
 	class Camera
 	{
@@ -72,13 +72,14 @@ addons[]=
 	"ace_medical_engine",
 	"ace_medical_treatment",
 	"A3_Modules_F_Curator_Curator",
-	"rhsusf_c_ch53"
+	"rhsusf_c_ch53",
+	"UK3CB_Factions_Vehicles_AAV"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=25;
+		items=26;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -254,6 +255,11 @@ class AddonsMetaData
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
+		class Item25
+		{
+			className="UK3CB_Factions_Vehicles_AAV";
+			name="UK3CB_Factions_Vehicles_AAV";
+		};
 	};
 };
 randomSeed=8273028;
@@ -324,7 +330,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=339;
+		items=341;
 		class Item0
 		{
 			dataType="Marker";
@@ -15468,7 +15474,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4071.978,0,11792.5};
+				position[]={4063.2285,0.31339344,11777.901};
 				angles[]={0,3.1415927,0};
 			};
 			side="Empty";
@@ -15478,14 +15484,14 @@ class Mission
 			};
 			id=3596;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=39.359055;
+			atlOffset=39.532726;
 		};
 		class Item284
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4081.978,0,11792.5};
+				position[]={4091.9167,0,11778.296};
 				angles[]={0,3.1415927,0};
 			};
 			side="Empty";
@@ -15495,7 +15501,7 @@ class Mission
 			};
 			id=3597;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=39.453503;
+			atlOffset=39.50523;
 		};
 		class Item285
 		{
@@ -15843,7 +15849,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=1;
+							value=0;
 						};
 					};
 				};
@@ -15881,7 +15887,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="0";
+							value="2";
 						};
 					};
 				};
@@ -16008,7 +16014,7 @@ class Mission
 			dataType="Marker";
 			position[]={4412.7207,187.75925,11741.967};
 			name="ACE_2_1_3_1_1_1_1_1";
-			text="TS | SERVER - 104.243.44.138 | PW - 201915";
+			text="TS | ts3.15thmeu.net | PW: 201915";
 			type="mil_dot";
 			id=3798;
 			atlOffset=229.99948;
@@ -26991,16 +26997,132 @@ class Mission
 			type="rhsusf_CH53E_USMC_GAU21";
 			atlOffset=63.483501;
 		};
+		class Item339
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4072.158,2.3450398,11785.262};
+				angles[]={0,3.1415927,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=3908;
+			type="UK3CB_B_AAV_US_WDL";
+			atlOffset=39.039001;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""FirstAidKit""],[10]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="uk3cb_enable_TI";
+					expression="if (!is3DEN) then { _this spawn { sleep 10; _this disableTIEquipment false; }; };";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item340
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4082.1218,2.192085,11785.326};
+				angles[]={0,3.1415927,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=3909;
+			type="UK3CB_B_AAV_US_WDL";
+			atlOffset=38.980782;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""FirstAidKit""],[10]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="uk3cb_enable_TI";
+					expression="if (!is3DEN) then { _this spawn { sleep 10; _this disableTIEquipment false; }; };";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=5;
+			nextID=7;
 		};
 		class Links
 		{
-			items=5;
+			items=7;
 			class Item0
 			{
 				linkID=0;
@@ -27045,6 +27167,26 @@ class Mission
 			{
 				linkID=4;
 				item0=3907;
+				item1=3792;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item5
+			{
+				linkID=5;
+				item0=3908;
+				item1=3792;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item6
+			{
+				linkID=6;
+				item0=3909;
 				item1=3792;
 				class CustomData
 				{

@@ -76,9 +76,12 @@ infantry_units = [
 light_vehicles = [
     ["B_Quadbike_01_F",0,0,0],                                           // Quad Bike
     ["rhsusf_mrzr4_d",0,0,0],                                            // MRZR 4
-    ["rhsusf_m1025_d",0,0,0],                                            // M1025A2
-    ["rhsusf_m1025_d_m2",100,40,50],                                     // M1025A2 (M2)
-    ["rhsusf_m1025_d_Mk19",100,60,50],                                   // M1025A2 (Mk19)
+    ["rhsusf_m1151_usmc_d",0,0,0],                                       // M1151
+    ["rhsusf_m1151_m2_v3_usmc_d",100,40,50],                             // M1151 (M2)
+    ["rhsusf_m1151_mk19_v3_usmc_d",100,60,50],                           // M1151 (Mk19)
+    ["rhsusf_m1151_m240_v3_usmc_d",100,30,50],                           // M1151 (M240)
+    ["rhsusf_m1152_usmc_d",0,0,0],                                       // M1152
+    ["rhsusf_m1165_usmc_d",0,0,0],                                       // M1165
     ["rhsusf_m998_d_2dr_fulltop",0,0,0],                                 // M1097A2 (2D)
     ["rhsusf_m998_d_2dr_halftop",0,0,0],                                 // M1097A2 (2D / open back)
     ["rhsusf_m1045_d_s",100,20,100],                                     // M1045 (TOW)
@@ -242,6 +245,7 @@ support_vehicles = [
     ["ACE_Box_82mm_Mo_Illum",50,10,0],
     ["ACE_Wheel",10,0,0],
     ["ACE_Track",10,0,0],
+    ["rhsusf_m1152_rsv_usmc_d",300,200,200],                            // M1152 RSV
     ["B_APC_Tracked_01_CRV_F",500,250,350],                             // CRV-6e Bobcat
     ["rhsusf_M1078A1R_SOV_M2_D_fmtv_socom",400,200,300],                // M1078A1R SOV
     ["B_Truck_01_Repair_F",325,0,75],                                   // HEMTT Repair

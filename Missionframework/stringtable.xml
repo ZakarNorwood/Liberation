@@ -46,10 +46,10 @@
 <Project name="Liberation">
     <Package name="Liberation">
         <Key ID="STR_MISSION_TITLE">
-            <Original>15th MEU Liberation v1.1.0</Original>
+            <Original>15th MEU Liberation v0.96.7a</Original>
         </Key>
         <Key ID="STR_MISSION_VERSION">
-            <Original>v1.1.0</Original>
+            <Original>v0.96.7a</Original>
         </Key>
 
         <!-- 15th MEU custom strings -->
