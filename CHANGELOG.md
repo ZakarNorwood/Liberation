@@ -27,6 +27,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 - Updated static map markers with current TeamSpeak URL: ts3.15thmeu.net.
 - Changed mission description tagline: "Fight alongside members of the 15th MEU Realism Unit as you work together to Capture The Island."
+- Updated the recruitment and rules billboards—thanks to [H. Taylor](https://15thmeu.net/index.php?/profile/169-1stlt-h-taylor/) for the graphics).
 
 ### Removed
 
