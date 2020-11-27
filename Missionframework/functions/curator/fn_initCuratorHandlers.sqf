@@ -20,7 +20,9 @@
 if (isServer) then {
 
     // delete old Liberation mission placed Zeus module
-    deleteVehicle zm1;
+    if (!isNil "zm1") then {
+        deleteVehicle zm1;
+    };
 
     // add curator assign EventHandler
     [true, "KPLIB_createZeus", {
