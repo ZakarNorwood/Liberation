@@ -34,7 +34,7 @@ let taskNamesPbo: string[] = [];
 let taskNamesZip: string[] = [];
 
 for (let preset of presets) {
-    const mission = new MissionPaths(preset, paths);
+    const mission = new MissionPaths(preset, paths, version);
     const taskName = [preset.missionName, preset.map].join('.');
 
 
@@ -94,7 +94,7 @@ for (let preset of presets) {
     gulp.task('pack_' + taskName, () => {
         return gulp.src(mission.getOutputDir() + '/**/*')
             .pipe(gulpPbo({
-                fileName: `${mission.getName()}.${version}.pbo`,
+                fileName: mission.getFullName() + '.pbo',
                 progress: false,
                 verbose: false,
                 // Do not compress (SLOW)
@@ -122,7 +122,7 @@ for (let preset of presets) {
             })
             .pipe(
                 gulp.src(
-                    resolve(mission.getWorkDir(), 'pbo', `${mission.getName()}.${version}.pbo`), {
+                    resolve(mission.getWorkDir(), 'pbo', mission.getFullName() + '.pbo'), {
                         base: resolve(mission.getWorkDir(), 'pbo') // Change base dir to have correct relative paths in ZIP
                     })
             )
