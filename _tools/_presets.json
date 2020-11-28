@@ -1,7 +1,7 @@
 [
     {
         "sourceFolder": "15th_liberation.Abramia",
-        "missionName": "15thMEU_LIB_IslaAbramia",
+        "missionName": "15thMEU_LIB",
         "map": "Abramia",
         "mapDisplay": "Isla Abramia",
         "configFile": "kp_liberation_config.sqf",
@@ -15,7 +15,7 @@
     },
     {
         "sourceFolder": "15th_liberation.Altis",
-        "missionName": "15thMEU_LIB_Altis",
+        "missionName": "15thMEU_LIB",
         "map": "Altis",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
@@ -28,7 +28,7 @@
     },
     {
         "sourceFolder": "15th_liberation.Chernarus",
-        "missionName": "15thMEU_LIB_Chernarus",
+        "missionName": "15thMEU_LIB",
         "map": "Chernarus",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
@@ -41,7 +41,7 @@
     },
     {
         "sourceFolder": "15th_liberation.Lingor3",
-        "missionName": "15thMEU_LIB_Lingor",
+        "missionName": "15thMEU_LIB",
         "map": "Lingor3",
         "mapDisplay": "Lingor",
         "configFile": "kp_liberation_config.sqf",
@@ -55,7 +55,7 @@
     },
     {
         "sourceFolder": "15th_liberation.Malden",
-        "missionName": "15thMEU_LIB_Malden",
+        "missionName": "15thMEU_LIB",
         "map": "Malden",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
@@ -68,7 +68,7 @@
     },
     {
         "sourceFolder": "15th_liberation.Sara",
-        "missionName": "15thMEU_LIB_Sahrani",
+        "missionName": "15thMEU_LIB",
         "map": "Sara",
         "mapDisplay": "Sahrani",
         "configFile": "kp_liberation_config.sqf",
@@ -82,7 +82,7 @@
     },
     {
         "sourceFolder": "15th_liberation.Takistan",
-        "missionName": "15thMEU_LIB_Takistan",
+        "missionName": "15thMEU_LIB",
         "map": "Takistan",
         "configFile": "kp_liberation_config.sqf",
         "variables": {

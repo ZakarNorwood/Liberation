@@ -54,3 +54,6 @@ Temporary Items
 # KP-Steam
 steam_appid.txt
 kp_steam*.log
+
+# VS Code workspaces
+*.code-workspace
