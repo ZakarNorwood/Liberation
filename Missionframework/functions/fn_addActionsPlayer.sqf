@@ -335,6 +335,7 @@ _player addAction [
 ];
 
 // Reassign Zeus
+/*
 if (player == ([] call KPLIB_fnc_getCommander)) then {
     _player addAction [
         ["<t color='#FF0000'>", localize "STR_REASSIGN_ZEUS", "</t>"] joinString "",
@@ -351,6 +352,7 @@ if (player == ([] call KPLIB_fnc_getCommander)) then {
         "
     ];
 };
+*/
 
 // Create FOB clearance
 _player addAction [
