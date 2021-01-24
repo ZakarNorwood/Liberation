@@ -750,6 +750,13 @@ GRLIB_arsenal_magazines = [
     "UK3CB_FNFAL_762_20Rnd",
     "UK3CB_M16_20Rnd_Mag_T",
     "UK3CB_M16_20Rnd_Mag",
+    "UK3CB_MG3_100rnd_762x51_GM",
+    "UK3CB_MG3_100rnd_762x51_RT",
+    "UK3CB_MG3_250rnd_762x51_G",
+    "UK3CB_MG3_250rnd_762x51_WT",
+    "UK3CB_MG3_50rnd_762x51_GM",
+    "UK3CB_MG3_50rnd_762x51_RT",
+    "UK3CB_MG3_50rnd_762x51_WM",
     "Vorona_HE",
     "Vorona_HEAT",
 
