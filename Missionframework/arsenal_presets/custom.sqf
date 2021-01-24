@@ -364,6 +364,7 @@ GRLIB_arsenal_magazines = [
     "100Rnd_65x39_caseless_khaki_mag",
     "100Rnd_65x39_caseless_mag_Tracer",
     "100Rnd_65x39_caseless_mag",
+    "10Rnd_127x54_Mag",
     "10Rnd_338_Mag",
     "10Rnd_50BW_Mag_F",
     "10Rnd_93x64_DMR_05_Mag",
