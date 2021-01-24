@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). Legacy releases used an incrementing `R#` version scheme. Releases based on KP-Liberation v0.96.7a and greater adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) and begin at v1.1.0 (as legacy releases would be v1.0).
 
+## [r11] - 2021-01-24
+
+### Added
+
+- Updated custom arsenal preset:
+  - Added ASP-1 KIR rifles and magazines
+  - Added MG3 magazines
+- CH-53E cargo and GAU21 variants added to Liberation transport vehicle configuration. This should reveal the resource crate actions to load and unload when near these airframes.
+
+### Changed
+
+- Replaced AV-8B with the F-35B VMFA-211 in the build menu.
+
+### Fixed
+
+- CH-53E GAU21 desert variant classname now used in desert preset.
+
 ## [r10] - 2020-11-27
 
 ### Added
