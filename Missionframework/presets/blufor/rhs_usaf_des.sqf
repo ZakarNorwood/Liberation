@@ -137,7 +137,7 @@ air_vehicles = [
     ["RHS_UH60M_MEV2_d",300,0,150],                                      // UH-60M MEV2
     ["rhsusf_CH53E_USMC_D",300,0,175],                                   // CH-53E Super Stallion
     ["rhsusf_CH53E_USMC_D_cargo",375,0,100],                             // CH-53E Super Stallion Cargo
-    ["rhsusf_CH53E_USMC_GAU21",300,100,175],                             // CH-53E Super Stallion (GAU-21)
+    ["rhsusf_CH53E_USMC_GAU21_D",300,100,175],                           // CH-53E Super Stallion (GAU-21)
     ["FIR_F35B_VMFA211",2000,1750,450]                                   // F-35B VMFA-211
 ];
 
