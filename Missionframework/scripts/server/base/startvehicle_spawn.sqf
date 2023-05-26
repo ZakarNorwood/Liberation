@@ -19,6 +19,7 @@ for [{_i=0}, {!isNil ("littlebird_" + str _i)}, {_i = _i + 1}] do {
 	_KP_liberation_little_bird setDamage 0;
 	_KP_liberation_little_bird allowdamage true;
 	_KP_liberation_little_bird setVariable ["KP_liberation_preplaced", true, true];
+	_KP_liberation_little_bird setVariable ["ace_pylons_magazineBlacklist", ace_pylon_magazine_blacklist];
 };
 
 for [{_i=0}, {!isNil ("boat_" + str _i)}, {_i = _i + 1}] do {
@@ -59,6 +60,8 @@ for [{_i=0}, {!isNil ("plane_" + str _i)}, {_i = _i + 1}] do {
 	_KP_liberation_plane setDamage 0;
 	_KP_liberation_plane allowdamage true;
 	_KP_liberation_plane setVariable ["KP_liberation_preplaced", true, true];
+	_KP_liberation_plane setVariable ["ace_pylons_magazineBlacklist", ace_pylon_magazine_blacklist];
+};
 };
 
 for [{_i=0}, {!isNil ("bigbird_" + str _i)}, {_i = _i + 1}] do {
@@ -79,4 +82,5 @@ for [{_i=0}, {!isNil ("bigbird_" + str _i)}, {_i = _i + 1}] do {
 	_KP_liberation_big_bird setDamage 0;
 	_KP_liberation_big_bird allowdamage true;
 	_KP_liberation_big_bird setVariable ["KP_liberation_preplaced", true, true];
+	_KP_liberation_big_bird setVariable ["ace_pylons_magazineBlacklist", ace_pylon_magazine_blacklist];
 };
