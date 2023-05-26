@@ -18,7 +18,7 @@ The 15th MEU Realism Unit is one of the longest standing realism units within th
 This project is designed to give the public Arma 3 community a taste of what it is like to be a member in the 15th MEU Realism Unit. Assets and equipment are limited to what is used by the US Marine Corps and the 15th MEU Realism Unit. The mission is intended to be run with a specific set of CBA settings that mirror the 15th MEU Realism Unit's operational settings.
 
 * Vehicle build list reworked to favour USMC and 15th MEU Realism Unit assets.
-* Custom map templates: [Isla Abramia], [Lingor].
+* Custom map templates: [Isla Abramia], [Lingor], [Virolahti].
 * Custom factions using RHS and 3CB Factions.
 
 ## Required Mods
@@ -54,3 +54,4 @@ This mod should be run server-side to use the CBA settings used on the official 
 
 [Lingor]: https://steamcommunity.com/sharedfiles/filedetails/?id=718649903
 [Isla Abramia]: https://steamcommunity.com/sharedfiles/filedetails/?id=648775794
+[Virolahti]: https://steamcommunity.com/workshop/filedetails/?id=1926513010

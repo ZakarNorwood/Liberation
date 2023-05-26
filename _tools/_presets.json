@@ -97,5 +97,17 @@
             "KP_liberation_preset_resistance": 2,
             "KP_liberation_preset_civilians": 0
         }
+    },
+    {
+        "sourceFolder": "15th_liberation.vt7",
+        "missionName": "15thMEU_LIB",
+        "map": "vt7",
+        "configFile": "kp_liberation_config.sqf",
+        "variables": {
+            "KP_liberation_preset_blufor": 6,
+            "KP_liberation_preset_opfor": 19,
+            "KP_liberation_preset_resistance": 2,
+            "KP_liberation_preset_civilians": 0
+        }
     }
 ]
