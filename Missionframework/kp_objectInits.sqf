@@ -33,6 +33,6 @@ KPLIB_objectInits = [
 
     // ACE Pylon Blacklist
     [air_vehicles apply {_x select 0;}, {
-        _this setVariable ["ace_pylons_magazineBlacklist", ace_pylon_magazine_blacklist]
-    }];
+        _this setVariable ["ace_pylons_magazineBlacklist", ace_pylon_magazine_blacklist];
+    }]
 ];

@@ -518,7 +518,7 @@ ace_pylon_magazine_blacklist = [
     "FIR_S13_P_5rnd_M",
     "FIR_S25OF_P_1rnd_M",
     "FIR_S25OFM_P_1rnd_M",
-    "FIR_S25L_P_1rnd_M",
+    "FIR_S25L_P_1rnd_M"
 ];
 
 
