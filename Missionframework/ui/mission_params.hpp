@@ -4,7 +4,7 @@ class Params
         title = $STR_PARAMS_LOADSAVEPARAMS;
         values[] = { 0, 1, 2 };
         texts[] = { $STR_PARAMS_LOADSAVEPARAMS_SAVE, $STR_PARAMS_LOADSAVEPARAMS_LOAD, $STR_PARAMS_LOADSAVEPARAMS_SELECTED };
-        default = 1; // If you want to set mission parameters via server.cfg or this file, then set this value to 2
+        default = 2; // If you want to set mission parameters via server.cfg or this file, then set this value to 2
     };
     class Spacer0 {
         title = "";
@@ -22,13 +22,13 @@ class Params
         title = $STR_PARAMS_UNITCAP;
         values[] = {0,1,2,3,4,5};
         texts[] = {$STR_PARAMS_UNITCAP1,$STR_PARAMS_UNITCAP2,$STR_PARAMS_UNITCAP3,$STR_PARAMS_UNITCAP4,$STR_PARAMS_UNITCAP5,$STR_PARAMS_UNITCAP6};
-        default = 2;
+        default = 1;
     };
     class Difficulty {
         title = $STR_PARAMS_DIFFICULTY;
         values[] = { 0, 1, 2, 3, 4, 5, 6, 7 };
         texts[] = { $STR_PARAMS_DIFFICULTY1, $STR_PARAMS_DIFFICULTY2, $STR_PARAMS_DIFFICULTY3, $STR_PARAMS_DIFFICULTY4, $STR_PARAMS_DIFFICULTY5, $STR_PARAMS_DIFFICULTY6, $STR_PARAMS_DIFFICULTY7, $STR_PARAMS_DIFFICULTY8 };
-        default = 2;
+        default = 1;
     };
     class Aggressivity {
         title = $STR_AGGRESSIVITY_PARAM;
@@ -62,9 +62,9 @@ class Params
     };
     class MaximumFobs {
         title = $STR_PARAM_FOBS_COUNT;
-        values[] = {3,5,7,10,15,20,26};
+        values[] = {3};
         texts[] = {3,5,7,10,15,20,26};
-        default = 10;
+        default = 3;
     };
     class MaxSquadSize {
         title = $STR_PARAM_SQUAD_SIZE;
@@ -100,7 +100,7 @@ class Params
         title = $STR_WEATHER_PARAM;
         values[] = { 1,2,3 };
         texts[] = { $STR_WEATHER_PARAM1, $STR_WEATHER_PARAM2, $STR_WEATHER_PARAM3 };
-        default = 3;
+        default = 1;
     };
     class VanillaFog {
         title = $STR_FOG_PARAM;
@@ -124,7 +124,7 @@ class Params
         title = $STR_PARAMS_VICTORYCONDITION;
         values[] = {0, 1, 2, 3, 4};
         texts[] = {$STR_PARAMS_VICTORYCONDITION_0, $STR_PARAMS_VICTORYCONDITION_1, $STR_PARAMS_VICTORYCONDITION_2, $STR_PARAMS_VICTORYCONDITION_3, $STR_PARAMS_VICTORYCONDITION_4};
-        default = 0;
+        default = 1;
     };
     class Spacer1 {
         title = "";
@@ -142,7 +142,7 @@ class Params
         title = $STR_A3_ReviveMode;
         values[] = {0,1};
         texts[] = {$STR_A3_Disabled, $STR_A3_EnabledForAllPlayers};
-        default = 1;
+        default = 0;
     };
     class ReviveDuration {
         title = $STR_A3_ReviveDuration;
@@ -214,7 +214,7 @@ class Params
         title = $STR_PARAMS_MAPMARKERS;
         values[] = { 0, 1 };
         texts[] = { $STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED };
-        default = 1;
+        default = 0;
     };
     class MobileRespawn {
         title = $STR_PARAMS_MOBILERESPAWN;
@@ -226,7 +226,7 @@ class Params
         title = $STR_PARAM_RESPAWN_COOLDOWN;
         values[] = {0, 300, 600, 900, 1200, 1800, 3600};
         texts[] = {$STR_PARAMS_DISABLED, 5, 10, 15, 20, 30, 60};
-        default = 900;
+        default = 0;
     };
     class MobileArsenal {
         title = $STR_PARAMS_MOBILEARSENAL;
@@ -254,8 +254,8 @@ class Params
     };
     class HaloJump {
         title = $STR_HALO_PARAM;
-        values[] = {1,5,10,15,20,30,0};
-        texts[] = { $STR_HALO_PARAM1, $STR_HALO_PARAM2, $STR_HALO_PARAM3, $STR_HALO_PARAM4, $STR_HALO_PARAM5, $STR_HALO_PARAM6, $STR_PARAMS_DISABLED };
+        values[] = {0};
+        texts[] = { $STR_PARAMS_DISABLED };
         default = 0;
     };
     class ClearCargo {
@@ -280,7 +280,7 @@ class Params
         title = $STR_PARAM_LIMITEDZEUS;
         values[] = {1,0};
         texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-        default = 1;
+        default = 0;
     };
     class Spacer3 {
         title = "";
@@ -298,7 +298,7 @@ class Params
         title = $STR_PERMISSIONS_PARAM;
         values[] = {1,0};
         texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-        default = 1;
+        default = 0;
     };
     class CleanupVehicles {
         title = $STR_CLEANUP_PARAM;
@@ -328,7 +328,7 @@ class Params
         title = $STR_RESTART_PARAM;
         values[] = {0,1,2,3,4,5,6};
         texts[] = {$STR_PARAMS_DISABLED,"1","2","3","4","5","6"};
-        default = 0;
+        default = 6;
     };
     class WipeSave1 {
         title = $STR_WIPE_TITLE;
