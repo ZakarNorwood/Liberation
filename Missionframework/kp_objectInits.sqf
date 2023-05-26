@@ -32,7 +32,7 @@ KPLIB_objectInits = [
     [["SignAd_Sponsor_F"], {_this setObjectTextureGlobal [0,"res\RECRules.jpg"];}],
 
     // ACE Pylon Blacklist
-    [air_vehicles select {_x select 0;}, {
+    [air_vehicles apply {_x select 0;}, {
         _this setVariable ["ace_pylons_magazineBlacklist", ace_pylon_magazine_blacklist]
     }];
 ];
