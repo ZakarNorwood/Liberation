@@ -143,6 +143,7 @@ GRLIB_ignore_colisions_when_building = [
 ];
 
 ace_pylon_magazine_blacklist = [
+    // FIR AWS Magazines
     "FIR_GAU8_1174rnd_M",
     "FIR_GAU12_300rnd_M",
     "FIR_GAU22_220rnd_M",
@@ -518,7 +519,18 @@ ace_pylon_magazine_blacklist = [
     "FIR_S13_P_5rnd_M",
     "FIR_S25OF_P_1rnd_M",
     "FIR_S25OFM_P_1rnd_M",
-    "FIR_S25L_P_1rnd_M"
+    "FIR_S25L_P_1rnd_M",
+    // F-A-18E-F Super Hornet 2020 Cluster Magazines
+    "PylonMissile_1Rnd_BombCluster_01_F",
+    "PylonRack_2Rnd_BombCluster_01_F",
+    "PylonMissile_1Rnd_BombCluster_03_F",
+    "PylonRack_2Rnd_BombCluster_03_F",
+    "itc_hp_bru33_BombCluster_01_Ammo_F",
+    "itc_hp_bru33_BombCluster_03_Ammo_F",
+    "itc_hp_bru42_BombCluster_01_Ammo_F",
+    "itc_hp_bru42_BombCluster_03_Ammo_F",
+    "itc_hp_dumb_BombCluster_01_Ammo_F",
+    "itc_hp_dumb_BombCluster_03_Ammo_F"
 ];
 
 
