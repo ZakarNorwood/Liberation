@@ -56,5 +56,6 @@ _newvehicle setVectorUp surfaceNormal position _newvehicle;
 sleep 0.1;
 _newvehicle allowdamage true;
 _newvehicle setdamage 0;
+_newvehicle lock true;
 
 _newvehicle

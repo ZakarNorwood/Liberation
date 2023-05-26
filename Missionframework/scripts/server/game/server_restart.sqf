@@ -58,7 +58,7 @@ while{true} do
 		sleep 5;
 
 		_myPass = call compile preprocessFileLineNumbers "\userconfig\restart\myPass.hpp";
-		_shutdownSuccess = _myPass serverCommand "#restart";//you can change with #restartserver if you want to restart the server process(Windows Dedicated Only).
+		_shutdownSuccess = _myPass serverCommand "#restartserver";//you can change with #restartserver if you want to restart the server process(Windows Dedicated Only).
 
 		if(_shutdownSuccess) then
 		{

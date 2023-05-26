@@ -304,6 +304,8 @@ GRLIB_arsenal_weapons = [
     "srifle_LRR_tna_F",
     "UK3CB_Enfield_Rail",
     "UK3CB_Enfield",
+    "UK3CB_FAMAS_F1",
+    "UK3CB_FAMAS_F1_GLM203",
     "UK3CB_FNFAL_FULL",
     "UK3CB_FNFAL_PARA",
     "uk3cb_fnfal_suit",
@@ -350,7 +352,15 @@ GRLIB_arsenal_weapons = [
     "uk3cb_optic_stanagzf2d_g3",
     "uk3cb_optic_zfsg1",
     "UK3CB_PSG1A1_RIS",
-    "UK3CB_PSG1A1"
+    "UK3CB_PSG1A1",
+	"avm224_W_M224_mortar_carry",
+    "meu_weap_mk48",
+	"meu_weap_MSR",
+	"meu_weap_glock_19",
+	"meu_weap_m110",
+	"meu_weap_m110_ec",
+	"rhs_weap_m32a1"
+	
 ];
 
 GRLIB_arsenal_magazines = [
@@ -650,6 +660,9 @@ GRLIB_arsenal_magazines = [
     "rhsusf_100Rnd_556x45_M855_soft_pouch_coyote",
     "rhsusf_100Rnd_556x45_M855_soft_pouch_ucp",
     "rhsusf_100Rnd_556x45_M855_soft_pouch",
+    "rhsusf_100Rnd_556x45_M995_soft_pouch_coyote",	
+    "rhsusf_100Rnd_556x45_M995_soft_pouch_ucp",	
+    "rhsusf_100Rnd_556x45_M995_soft_pouch",	
     "rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote",
     "rhsusf_100Rnd_556x45_mixed_soft_pouch_ucp",
     "rhsusf_100Rnd_556x45_mixed_soft_pouch",
@@ -749,6 +762,9 @@ GRLIB_arsenal_magazines = [
     "UK3CB_20Rnd_762x51_T_M14",
     "UK3CB_9x30Rnd",
     "UK3CB_Enfield_Mag",
+    "UK3CB_FAMAS_25rnd_556x45",
+    "UK3CB_FAMAS_25rnd_556x45_R",
+    "UK3CB_FAMAS_25rnd_556x45_RT",
     "UK3CB_FNFAL_762_20Rnd_T",
     "UK3CB_FNFAL_762_20Rnd",
     "UK3CB_M16_20Rnd_Mag_T",
@@ -761,7 +777,17 @@ GRLIB_arsenal_magazines = [
     "UK3CB_MG3_50rnd_762x51_RT",
     "UK3CB_MG3_50rnd_762x51_WM",
     "Vorona_HE",
-    "Vorona_HEAT",
+    "Vorona_HEAT",	
+    "10Rnd_338_Mag",
+    "MEU_338GB528_5Rnd",
+	"rhs_mk48_100rnd_762x51_AP",
+	"rhs_mk48_50rnd_762x51_AP",
+	"m993_scar_special",
+    "avm224_M_6Rnd_60mm_ILLUM_csw",
+    "avm224_M_6Rnd_60mm_ILLUM_IR_csw",
+    "avm224_M_6Rnd_60mm_HE_0_csw",
+    "avm224_M_6Rnd_60mm_HE_csw",
+	
 
     // Throwables
     "ACE_Chemlight_HiBlue",
@@ -819,6 +845,7 @@ GRLIB_arsenal_magazines = [
     "SatchelCharge_Remote_Mag",
 
     // Misc
+    "DNRP_AR2_battery",	
     "Laserbatteries"
 ];
 
@@ -976,6 +1003,7 @@ GRLIB_arsenal_items = [
     "rhsusf_acc_T1_high",
     "rhsusf_acc_T1_low_fwd",
     "rhsusf_acc_T1_low",
+	"optic_strigid_rt_6",
 
     // Underbarrel
     "bipod_01_F_blk",
@@ -1014,6 +1042,9 @@ GRLIB_arsenal_items = [
     "rhsusf_acc_tacsac_tan",
     "rhsusf_acc_tdstubby_blk",
     "rhsusf_acc_tdstubby_tan",
+    "rhsusf_acc_grip_m203_blk",
+	"rhsusf_acc_grip_m203_d",
+	
 
     // Muzzle
     "ACE_muzzle_mzls_338",
@@ -1136,6 +1167,8 @@ GRLIB_arsenal_items = [
     "rhsusf_bino_lrf_Vector21",
     "rhsusf_bino_m24_ARD",
     "rhsusf_bino_m24",
+    "MEU_LaserDesignator",
+	
 
     // NVGs
     "ACE_NVG_Gen1",
@@ -1156,6 +1189,7 @@ GRLIB_arsenal_items = [
     "rhsusf_Rhino",
     "UK3CB_ANPVS7",
     "UK3CB_PVS5A",
+    "meu_ANPVS_15",
 
     // Facewear
     "FIR_HGU55PJ_Visor_Black_down",
@@ -1268,6 +1302,9 @@ GRLIB_arsenal_items = [
     "UK3CB_G_Neck_Shemag",
 
     // Helmets
+    "H_HelmetB_TI_arid_F",
+    "H_HelmetB_TI_tna_F",
+    "H_Cap_usblack",
     "FIR_hgu26p_camo",
     "FIR_hgu26p",
     "FIR_HGU33P_VF1",
@@ -1583,11 +1620,17 @@ GRLIB_arsenal_items = [
     "rhsusf_opscore_paint",
     "rhsusf_opscore_rg_cover_pelt",
     "rhsusf_opscore_rg_cover",
+    "rhsusf_opscore_winter_cover_pelt",
     "rhsusf_opscore_ut_pelt_cam",
     "rhsusf_opscore_ut_pelt_nsw_cam",
     "rhsusf_opscore_ut_pelt_nsw",
     "rhsusf_opscore_ut_pelt",
     "rhsusf_opscore_ut",
+    "rhsusf_opscore_coy_pelt_cam",
+    "rhsusf_opscore_coy_pelt_nsw_cam",
+    "rhsusf_opscore_coy_pelt_nsw",
+    "rhsusf_opscore_coy_pelt",
+    "rhsusf_opscore_coy",
     "rhsusf_protech_helmet_ess",
     "rhsusf_protech_helmet_rhino_ess",
     "rhsusf_protech_helmet_rhino",
@@ -1924,6 +1967,7 @@ GRLIB_arsenal_items = [
     "rhs_uniform_cu_ucp",
     "rhs_uniform_FROG01_d",
     "rhs_uniform_FROG01_wd",
+    "rhs_uniform_FROG01_w",
     "rhs_uniform_g3_aor2",
     "rhs_uniform_g3_blk",
     "rhs_uniform_g3_m81",
@@ -2151,7 +2195,9 @@ GRLIB_arsenal_items = [
     "ACRE_PRC343",
     "ACRE_PRC77",
     "B_UavTerminal",
+    "O_UavTerminal",
     "FIR_PDU",
+    "DNRP_AR2_Item",		
     "ItemCompass",
     "ItemGPS",
     "ItemMap",
@@ -2239,5 +2285,8 @@ GRLIB_arsenal_backpacks = [
     "UK3CB_CW_US_B_LATE_B_RIF_03",
     "UK3CB_CW_US_B_LATE_B_RIF_04",
     "UK3CB_CW_US_B_LATE_B_RIF",
-    "UK3CB_UN_B_B_ASS"
+    "UK3CB_UN_B_B_ASS",
+	"B_MEU_Battle_Belt_F",
+	"B_CRRC_backpack"
+
 ];

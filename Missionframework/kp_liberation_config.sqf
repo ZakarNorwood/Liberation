@@ -93,7 +93,7 @@ If you want to change a preset, it's recommended to set all four presets to 0 an
 25 = SFP (Woodland)
 26 = SFP (Desert)
 27 = LDF (Contact DLC) */
-KP_liberation_preset_blufor = 0;
+KP_liberation_preset_blufor = 6;
 
 /* OPFOR preset:
 0  = Custom (default vanilla CSAT)
@@ -117,7 +117,7 @@ KP_liberation_preset_blufor = 0;
 18 - 3CB Chernarus Anti-Government Militia
 19 - 3CB Cold War (Late) Soviet Forces
 20 - 3CB Takistan Pro-Government Militia */
-KP_liberation_preset_opfor = 0;
+KP_liberation_preset_opfor = 19;
 
 /* Resistance preset:
 0  = Custom (default vanilla FIA)
@@ -129,7 +129,7 @@ KP_liberation_preset_opfor = 0;
 6  = Unsung
 7  = CUP Takistani Locals
 8  = CUP National Party of Chernarus */
-KP_liberation_preset_resistance = 0;
+KP_liberation_preset_resistance = 2;
 
 /* Civilians preset:
 0  = Custom (default vanilla)
@@ -179,7 +179,7 @@ GRLIB_color_friendly = "ColorBLUFOR";                                   // Frien
 GRLIB_color_enemy = "ColorOPFOR";                                       // Enemy sector marker color.
 GRLIB_color_enemy_bright = "ColorRED";                                  // Enemy sector marker color (activated).
 
-GRLIB_fob_range = 125;                                                  // Build range around the main FOB building.
+GRLIB_fob_range = 200;                                                  // Build range around the main FOB building.
 GRLIB_halo_altitude = 2500;                                             // Altitude in metres for the HALO jump.
 GRLIB_secondary_missions_costs = [15, 10, 8];                           // Intel price for the secondary missions [FOB hunting, Convoy ambush, SAR].
 GRLIB_secondary_objective_impact = 0.6;                                 // The percentage impact against enemy combat readiness for a successful FOB hunt.
@@ -232,6 +232,9 @@ KP_liberation_resistance_ambush_chance = 25;                            // Chanc
 KP_liberation_battlegroup_clearance = [
     "song_bin_tanh"
 ];
+
+// Automatic refill magazines on redeploy and load arsenal. true means fill.
+KPLIB_fill_mags = true;
 
 /* - Default arsenal blacklist method.
 Useless if you're using anything other than "kp_liberation_arsenal = 0;" above. A whitelisted arsenal is always more performance friendly then a blacklisted arsenal.
@@ -317,9 +320,6 @@ blacklisted_from_arsenal = [
     "O_UAV_06_medical_backpack_F",
     "O_UGV_02_Demining_backpack_F",
     "O_UGV_02_Science_backpack_F",
-    "optic_Nightstalker",
-    "optic_tws_mg",
-    "optic_tws",
     "RHS_AGS30_Gun_Bag",
     "RHS_AGS30_Tripod_Bag",
     "RHS_DShkM_Gun_Bag",
@@ -473,7 +473,10 @@ KP_liberation_allowed_items_extension = [
     "rhsusf_acc_g33_xps3_tan_flip",
     "sma_spitfire_03_rds_low_ard_red",
     "UK3CB_BAF_AT4_CS_AP_Mag",
-    "UK3CB_BAF_Javelin_Launcher"
+    "UK3CB_BAF_Javelin_Launcher",
+    "rhs_uniform_FROG01_w",
+    "rhs_uniform_FROG01_wd",
+    "rhs_uniform_FROG01_d"
 ];
 
 /* - Configuration settings for crates transported by vehicles.
@@ -486,7 +489,7 @@ box_transport_config = [
     ["B_T_Truck_01_flatbed_F", -6.5, [0,-0.4,0.4], [0,-2.1,0.4], [0,-3.8,0.4]],
     ["B_T_Truck_01_transport_F", -6.5, [0,-0.4,0.4], [0,-2.1,0.4], [0,-3.8,0.4]],
     ["B_T_VTOL_01_infantry_F", -7.5,[0,4.7,-4.88],[0,3,-4.88],[0,1.3,-4.88],[0,-0.4,-4.88],[0,-2.1,-4.88]],
-    ["B_T_VTOL_01_vehicle_F", -7.5,[0,4.7,-4.88],[0,3,-4.88],[0,1.3,-4.88],[0,-0.4,-4.88],[0,-2.1,-4.88]],
+    ["B_T_VTOL_01_vehicle_F", -7.5,[0,4.7,-4.88],[0,3,-4.88],[0,1.3,-4.88],[0,-0.4,-4.88],[0,-2.1,-4.88],[0,4.7,-4.88],[0,3,-4.88],[0,1.3,-4.88],[0,-0.4,-4.88],[0,-2.1,-4.88],[0,4.7,-4.88],[0,3,-4.88],[0,1.3,-4.88],[0,-0.4,-4.88],[0,-2.1,-4.88]],
     ["B_Truck_01_cargo_F", -6.5, [0,-0.4,0.4], [0,-2.1,0.4], [0,-3.8,0.4]],
     ["B_Truck_01_covered_F", -6.5, [0,-0.4,0.4], [0,-2.1,0.4], [0,-3.8,0.4]],
     ["B_Truck_01_flatbed_F", -6.5, [0,-0.4,0.4], [0,-2.1,0.4], [0,-3.8,0.4]],
@@ -621,6 +624,7 @@ box_transport_config = [
     ["rhsusf_M977A4_BKIT_M2_usarmy_d", -6.5, [0,0.4,0.1], [0,-1.3,0.1], [0,-3,0.1]],
     ["rhsusf_M977A4_BKIT_M2_usarmy_wd", -6.5, [0,0.4,0.1], [0,-1.3,0.1], [0,-3,0.1]],
     ["rhsusf_M977A4_BKIT_usarmy_d", -6.5, [0,0.4,0.8], [0,-1.3,0.8], [0,-3,0.8]],
+    ["O_AAF_M977_Open_WEST_01", -6.5, [0,0.4,0.8], [0,-1.3,0.8], [0,-3,0.8]],
     ["rhsusf_M977A4_BKIT_usarmy_wd", -6.5, [0,0.4,0.8], [0,-1.3,0.8], [0,-3,0.8]],
     ["rhsusf_M977A4_usarmy_d", -6.5, [0,0.4,0.8], [0,-1.3,0.8], [0,-3,0.8]],
     ["rhsusf_M977A4_usarmy_wd", -6.5, [0,0.4,0.8], [0,-1.3,0.8], [0,-3,0.8]],
@@ -643,7 +647,10 @@ box_transport_config = [
     ["uns_m37b1", -5, [0,-1.8,0.15]],
     ["uns_nvatruck_mg", -5, [0,-1.05,0.8], [0,-2.75,0.8]],
     ["uns_nvatruck_open", -5, [0,-1.05,0.8], [0,-2.75,0.8]],
-    ["uns_nvatruck", -5, [0,-1.05,0.8], [0,-2.75,0.8]]
+    ["uns_nvatruck", -5, [0,-1.05,0.8], [0,-2.75,0.8]],
+    ["UK3CB_MDF_O_MTVR_Recovery", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
+    ["UK3CB_TKA_O_Ural_Open", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]]
+	
 ];
 
 /* Various other settings.
@@ -686,7 +693,8 @@ ai_resupply_sources = [
     "sfp_tgb40_ammo",
     "uns_M113_ENG",
     "uns_M35A2_ammo",
-    "uns_motorpool1_repair"
+    "uns_motorpool1_repair",
+	"O_AAF_MTVR_Ammo_WEST_01"
 ];
 
 // Everything that can resupply other vehicles.
@@ -766,7 +774,8 @@ vehicle_rearm_sources = [
     "rhsusf_M977A4_AMMO_usarmy_wd",
     "sfp_tgb40_ammo",
     "uns_M113_ENG",
-    "uns_M35A2_ammo"
+    "uns_M35A2_ammo",
+	"O_AAF_MTVR_Ammo_WEST_01"
 ];
 
 vehicle_refuel_sources = [
@@ -807,7 +816,8 @@ vehicle_refuel_sources = [
     "sfp_tgb40_fuel",
     "uns_M113_ENG",
     "uns_M35A2_fuel",
-    "uns_M35A2_fueltanker"
+    "uns_M35A2_fueltanker",
+	"O_AAF_MTVR_Fuel_WEST_01"
 ];
 
 // Classnames of boats, so they can be built on water.

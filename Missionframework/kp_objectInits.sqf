@@ -2,6 +2,7 @@
 Format = [Array of classnames as strings, Code to apply]
 _this is the reference to the object with the classname */
 
+
 KPLIB_objectInits = [
     // Set KP logo on white flag
     [["Flag_White_F"], {_this setFlagTexture "res\flag_kp_co.paa";}],
@@ -28,5 +29,10 @@ KPLIB_objectInits = [
 
     // 15th sign textures
     [["Land_Billboard_F"], {_this setObjectTextureGlobal [0,"res\REC_S1RD.jpg"];}],
-    [["SignAd_Sponsor_F"], {_this setObjectTextureGlobal [0,"res\RECRules.jpg"];}]
+    [["SignAd_Sponsor_F"], {_this setObjectTextureGlobal [0,"res\RECRules.jpg"];}],
+
+    // ACE Pylon Blacklist
+    [air_vehicles apply {_x select 0}, {
+        _this setVariable ["ace_pylons_magazineBlacklist", ace_pylon_magazine_blacklist, true];
+    }]
 ];

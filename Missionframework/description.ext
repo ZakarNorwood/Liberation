@@ -28,8 +28,8 @@ joinUnassigned = 1;
 
 corpseManagerMode = 1;
 corpseLimit = 50;
-corpseRemovalMinTime = 600;
-corpseRemovalMaxTime = 3600;
+corpseRemovalMinTime = 60;
+corpseRemovalMaxTime = 300;
 wreckManagerMode = 1;
 wreckLimit = 20;
 wreckRemovalMinTime = 1200;

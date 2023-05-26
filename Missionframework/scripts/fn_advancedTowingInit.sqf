@@ -472,8 +472,7 @@ SA_Attach_Tow_Ropes_Action = {
 		
 		if!(missionNamespace getVariable ["SA_TOW_LOCKED_VEHICLES_ENABLED",false]) then {
 			if( locked _cargo > 1 ) then {
-				["Cannot attach tow ropes to locked vehicle",false] call SA_Hint;
-				_canBeTowed = false;
+				_canBeTowed = true;
 			};
 		};
 		
@@ -518,8 +517,7 @@ SA_Take_Tow_Ropes_Action = {
 		
 		if!(missionNamespace getVariable ["SA_TOW_LOCKED_VEHICLES_ENABLED",false]) then {
 			if( locked _vehicle > 1 ) then {
-				["Cannot take tow ropes from locked vehicle",false] call SA_Hint;
-				_canTakeTowRopes = false;
+				_canTakeTowRopes = true;
 			};
 		};
 		
@@ -564,8 +562,7 @@ SA_Put_Away_Tow_Ropes_Action = {
 		
 		if!(missionNamespace getVariable ["SA_TOW_LOCKED_VEHICLES_ENABLED",false]) then {
 			if( locked _vehicle > 1 ) then {
-				["Cannot put away tow ropes in locked vehicle",false] call SA_Hint;
-				_canPutAwayTowRopes = false;
+				_canPutAwayTowRopes = true;
 			};
 		};
 		
@@ -629,8 +626,7 @@ SA_Pickup_Tow_Ropes_Action = {
 		
 		if!(missionNamespace getVariable ["SA_TOW_LOCKED_VEHICLES_ENABLED",false]) then {
 			if( locked _vehicle > 1 ) then {
-				["Cannot pick up tow ropes from locked vehicle",false] call SA_Hint;
-				_canPickupTowRopes = false;
+				_canPickupTowRopes = true;
 			};
 		};
 		

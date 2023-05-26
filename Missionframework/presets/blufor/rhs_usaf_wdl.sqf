@@ -17,12 +17,14 @@ FOB_typename = "Land_Cargo_HQ_V1_F";                                    // This 
 FOB_box_typename = "B_Slingload_01_Cargo_F";                            // This is the FOB as a container.
 FOB_truck_typename = "rhsusf_M1078A1P2_B_WD_CP_fmtv_usarmy";            // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                   // This is the virtual arsenal as portable supply crates.
-Respawn_truck_typename = "rhsusf_M1085A1P2_B_WD_Medical_fmtv_usarmy";   // This is the mobile respawn (and medical) truck.
-huron_typename = "rhsusf_CH53E_USMC";                             // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
+Respawn_truck_typename = "rhsusf_M1085A1P2_B_WD_Medical_fmtv_usarmy";  	// This is the mobile respawn (and medical) truck.
+huron_typename = "";                                                    // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "rhsusf_usmc_marpat_wd_combatcrewman";              // This defines the crew for vehicles.
 pilot_classname = "rhsusf_usmc_marpat_wd_helipilot";                    // This defines the pilot for helicopters.
-KP_liberation_little_bird_classname = "RHS_UH1Y_UNARMED";               // These are the little birds which spawn on the Freedom or at Chimera base.
-KP_liberation_boat_classname = "B_Boat_Transport_01_F";                 // These are the boats which spawn at the stern of the Freedom.
+KP_liberation_little_bird_classname = "RHS_UH1Y";      		            // These are the little birds which spawn on the Freedom or at Chimera base.
+KP_liberation_big_bird_classname = "rhsusf_CH53E_USMC";      		    // This is the transport helicopter which spawns on the Freedom or at Chimera base.
+KP_liberation_boat_classname = "UK3CB_TKA_B_RHIB_Gunboat";              // These are the boats which spawn at the stern of the Freedom.
+KP_liberation_plane_classname = "JS_JC_FA18E";                          // These are the fixed wing planes that spawns on the Freedom.
 KP_liberation_truck_classname = "rhsusf_M977A4_BKIT_usarmy_wd";         // These are the trucks which are used in the logistic convoy system.
 KP_liberation_small_storage_building = "ContainmentArea_02_forest_F";   // A small storage area for resources.
 KP_liberation_large_storage_building = "ContainmentArea_01_forest_F";   // A large storage area for resources.
@@ -76,6 +78,7 @@ infantry_units = [
 light_vehicles = [
     ["B_Quadbike_01_F",0,0,0],                                          // Quad Bike
     ["rhsusf_mrzr4_w",0,0,0],                                           // MRZR 4
+	["B_T_LSV_01_unarmed_f",0,0,0],										// Polaris DAGOR
     ["rhsusf_m1151_usmc_wd",0,0,0],                                     // M1151
     ["rhsusf_m1151_m2_v3_usmc_wd",100,40,50],                           // M1151 (M2)
     ["rhsusf_m1151_mk19_v3_usmc_wd",100,60,50],                         // M1151 (Mk19)
@@ -86,9 +89,6 @@ light_vehicles = [
     ["rhsusf_m998_w_2dr_halftop",0,0,0],                                // M1097A2 (2D / open back)
     ["rhsusf_m1045_w_s",100,20,100],                                    // M1045 (TOW)
     ["rhsusf_m998_w_s_4dr",0,0,0],                                      // M998 (4D / Open Top)
-    ["rhsusf_M1220_usarmy_wd",120,0,60],                                // M1220
-    ["rhsusf_M1220_M2_usarmy_wd",120,40,60],                            // M1220 (M2)
-    ["rhsusf_M1220_MK19_usarmy_wd",120,60,60],                          // M1220 (Mk19)
     ["rhsusf_M1232_usarmy_wd",140,0,60],                                // M1232
     ["rhsusf_M1232_M2_usarmy_wd",140,40,60],                            // M1232 (M2)
     ["rhsusf_M1232_MK19_usarmy_wd",140,60,60],                          // M1232 (Mk19)
@@ -106,8 +106,8 @@ light_vehicles = [
     ["rhsusf_M977A4_BKIT_usarmy_wd",125,0,75],                          // M977A4 BKIT
     ["rhsusf_M977A4_BKIT_M2_usarmy_wd",125,40,75],                      // M977A4 BKIT (HMG)
     ["rhsusf_M1117_W",150,50,50],                                       // M1117 ASV
-    ["B_Boat_Transport_01_F",100,0,25],                                 // Assault Boat
-    ["B_Boat_Armed_01_minigun_F",200,80,75],                            // Speedboat Minigun
+    ["B_Boat_Transport_01_F",25,0,25],                                  // Assault Boat
+    ["UK3CB_TKA_B_RHIB_Gunboat",100,80,75],                             // Speedboat Minigun
     ["rhsusf_mkvsoc",250,200,100],                                      // Mk.V SOCOM
     ["B_SDV_01_F",150,0,50]                                             // SDV
 ];
@@ -115,30 +115,33 @@ light_vehicles = [
 heavy_vehicles = [
     ["rhsusf_m113_usarmy",200,40,100],                                  // M113A3 (M2)
     ["rhsusf_m113_usarmy_MK19",200,60,100],                             // M113A3 (Mk19)
-    ["rhsusf_m113_usarmy_medical",200,0,100],                           // M113A3 (Medical)
-    ["UK3CB_B_AAV_US_WDL",250,150,100],                                 // 3CB AAVP-7A1;
-    ["RHS_M2A2_BUSKI_WD",300,200,150],                                  // M2A2ODS (Busk I)
-    ["RHS_M2A3_BUSKIII_wd",300,250,175],                                // M2A3 (Busk III)
+	["UK3CB_B_LAV25_US_WDL",150,150,100],								// LAV-25		
+    ["UK3CB_B_AAV_US_WDL",250,150,100],                                 // AAVP-7A1
+	["B_T_APC_Wheeled_01_cannon_F",300,250,150],						// ACV-30
+    ["RHS_M2A3_BUSKIII_wd",350,350,175],                                // M2A3 (Busk III)
     ["RHS_M6_wd",300,250,175],                                          // M6A2
-    ["rhsusf_m1a1fep_wd",600,400,250],                                  // M1A1 FEP (Original USMC)
-    ["rhsusf_m1a2sep1wd_usarmy",800,600,350],                           // M1A2 SEP v1 (Operations)
+    ["rhsusf_m1a1fep_wd",600,400,250],                                  // M1A1 FEP
+    ["rhsusf_m1a2sep1tuskiiwd_usarmy",800,600,350],                     // M1A2 SEPv1 TUSK II
     ["rhsusf_m109_usarmy",700,1250,350]                                 // M109A6
 ];
 
 air_vehicles = [
     ["RHS_MELB_MH6M",100,0,100],                                         // MH-6M Little Bird
-    ["RHS_MELB_AH6M",200,200,100],                                       // AH-6M Pawnee
-    ["RHS_UH1Y_UNARMED",225,0,125],                                      // UH-1Y (Unarmed)
-    ["RHS_UH1Y_GS",225,200,125],                                         // UH-1Y (Ground Suppression)
+    ["RHS_MELB_AH6M",100,200,100],                                       // AH-6M Little Bird
+    ["RHS_UH1Y_UNARMED",200,0,100],                                      // UH-1Y (Unarmed)
+    ["RHS_UH1Y",225,200,125],                                            // UH-1Y (MG/Rockets)
     ["RHS_AH1Z",500,500,200],                                            // AH-1Z (Multi-Role)
     ["RHS_AH64D_wd",750,750,250],                                        // AH-64D (Multi-Role)
     ["RHS_UH60M2",250,0,150],                                            // UH-60M (Unarmed)
     ["RHS_UH60M",250,80,150],                                            // UH-60M
-    ["RHS_UH60M_MEV2",300,0,150],                                        // UH-60M MEV2
-    ["rhsusf_CH53E_USMC",300,0,175],                                     // CH-53E Super Stallion
-    ["rhsusf_CH53E_USMC_cargo",375,0,100],                               // CH-53E Super Stallion Cargo
-    ["rhsusf_CH53E_USMC_GAU21",300,100,175],                             // CH-53E Super Stallion (GAU-21)
-    ["FIR_F35B_VMFA211",2000,1750,450]                                   // F-35B VMFA-211
+	["RHS_UH60M_ESSS",250,200,150],                                      // UH-60M ESSS
+    ["rhsusf_CH53E_USMC",300,0,200],                                     // CH-53E Super Stallion
+    ["rhsusf_CH53E_USMC_cargo",300,0,200],                               // CH-53E Super Stallion Cargo
+    ["rhsusf_CH53E_USMC_GAU21",300,100,200],                             // CH-53E Super Stallion (GAU-21)
+	["B_T_VTOL_01_infantry_F",400,0,200],                                // V-44X Blackfish (Infantry Transport)
+	["B_T_VTOL_01_vehicle_F",400,0,200],                                 // V-44X Blackfish (Vehicle Transport)
+	["JS_JC_FA18E",1000,1000,500],                                       // F/A-18E Super Hornet (single seat)
+	["JS_JC_FA18F",1000,1000,500]                                        // F/A-18F Super Hornet (dual seat)
 ];
 
 static_vehicles = [
@@ -230,7 +233,7 @@ buildings = [
 
 support_vehicles = [
     [Arsenal_typename,100,200,0],
-    [Respawn_truck_typename,200,0,100],
+    [Respawn_truck_typename,1000,1000,1000],
     [FOB_box_typename,300,500,0],
     [FOB_truck_typename,300,500,75],
     [KP_liberation_small_storage_building,0,0,0],
@@ -245,7 +248,6 @@ support_vehicles = [
     ["ACE_Box_82mm_Mo_Illum",50,10,0],
     ["ACE_Wheel",10,0,0],
     ["ACE_Track",10,0,0],
-    ["rhsusf_m1152_rsv_usmc_wd",300,200,200],                           // M1152 RSV
     ["B_APC_Tracked_01_CRV_F",500,250,350],                             // CRV-6e Bobcat
     ["rhsusf_M1078A1R_SOV_M2_WD_fmtv_socom",400,200,300],               // M1078A1R SOV
     ["B_Truck_01_Repair_F",325,0,75],                                   // HEMTT Repair
@@ -361,11 +363,12 @@ blufor_squad_para = [
 */
 elite_vehicles = [
     "rhsusf_mkvsoc",                                                    // Mk.V SOCOM
-    "rhsusf_m1a1fep_wd",                                                // M1A1 FEP
-    "rhsusf_m1a2sep1wd_usarmy",                                         // M1A2 SEP v1
-    "rhsusf_m109_usarmy",                                               // M109A6
-    "RHS_AH64D_wd",                                                     // AH-64D (Multi-Role)
-    "RHS_M6_wd",                                                        // M6
-    "RHS_UH60M_MEV2",                                                   // UH-60M MEV 2
-    "FIR_AV8B_Blank"                                                    // AV8B
+	"rhsusf_m1a2sep1tuskiid_usarmy",									// M1A2 SEPv1 TUSK I
+    "rhsusf_m109d_usarmy",                                              // M109A6
+    "RHS_AH64D",                                                        // AH-64D (Multi-Role)
+    "RHS_M6",                                                           // M6
+	"RHS_UH60M_ESSS",													// UH-60M ESSS
+	"RHS_M2A3_BUSKIII",										    		// M2A3 BUSK III
+	"JS_JC_FA18E",                                           		    // F/A-18E Super Hornet
+	"JS_JC_FA18F"                                           	        // F/A-18F Super Hornet
 ];
