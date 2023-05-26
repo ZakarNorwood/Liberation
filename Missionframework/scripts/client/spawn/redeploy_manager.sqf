@@ -172,7 +172,7 @@ while {true} do {
 		if ((lbCurSel 203) > 0) then {
 			private _selectedLoadout = _loadouts_data select ((lbCurSel 203) - 1);
 			if (KP_liberation_ace && KP_liberation_arsenal_type) then {
-				player setUnitLoadout (_selectedLoadout select 1);
+				[player, _selectedLoadout select 1, KPLIB_fill_mags] call CBA_fnc_setLoadout;
 			} else {
 				[player, [profileNamespace, _selectedLoadout]] call BIS_fnc_loadInventory;
 			};
