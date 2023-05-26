@@ -17,12 +17,12 @@ player createDiaryRecord ["Rules",["Server Rules","<font color='#ff4444'>1. Frie
 7. 'Kingpin 4' slots are for S-4 staff use only. Unauthorized users shall be kicked.<br/><br/>
 8. Any issues with players breaking these rules can be reported to any Silver or Red Shield, or on the 15thmeu.net forums.<br/><br/>
 9. Asshattery is Deprecated. Infractions of these rules by 15th MEU members shall be addressed through official disciplinary action.<br/><br/>
-10.Abusing Opfor Equipment (IE wearing kits in an attempt to roleplay as or look as close to the enemy as possible) is prohibitied as it will cause possibly blue on blue incidents."]];
+10. Abusing Opfor Equipment (IE wearing kits in an attempt to roleplay as or look as close to the enemy as possible) is prohibitied as it will cause possibly blue on blue incidents."]];
 
 _index =player createDiarySubject ["15thMEU","15th MEU RU Info "];
 player createDiaryRecord ["15thMEU",["Forums","Check us out at www.15thmeu.net."]];
 player createDiaryRecord ["15thMEU",["TeamSpeak","Join our TeamSpeak server to communicate with others: <br/>
-Address: 104.243.44.138<br/>
+Address: ts3.15thmeu.net<br/>
 Password: 201915<br/>
 TS and ACRE must be used by all pilots.<br/><br/>
 <br/>

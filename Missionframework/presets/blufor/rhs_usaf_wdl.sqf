@@ -361,4 +361,14 @@ blufor_squad_para = [
     Classnames below have to be unlocked by capturing military bases.
     Which base locks a vehicle is randomized on the first start of the campaign.
 */
-elite_vehicles = [];
+elite_vehicles = [
+    "rhsusf_mkvsoc",                                                    // Mk.V SOCOM
+	"rhsusf_m1a2sep1tuskiid_usarmy",									// M1A2 SEPv1 TUSK I
+    "rhsusf_m109d_usarmy",                                              // M109A6
+    "RHS_AH64D",                                                        // AH-64D (Multi-Role)
+    "RHS_M6",                                                           // M6
+	"RHS_UH60M_ESSS",													// UH-60M ESSS
+	"RHS_M2A3_BUSKIII",										    		// M2A3 BUSK III
+	"JS_JC_FA18E",                                           		    // F/A-18E Super Hornet
+	"JS_JC_FA18F"                                           	        // F/A-18F Super Hornet
+];
