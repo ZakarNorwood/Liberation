@@ -51,3 +51,4 @@ build/
 
 # VS Code workspaces
 *.code-workspace
+_tools/package-lock.json
