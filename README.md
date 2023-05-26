@@ -25,11 +25,24 @@ This project is designed to give the public Arma 3 community a taste of what it 
 
 These mods are needed if you want to use the prepackaged missionfiles or customized factions:
 
-* [3CB Factions](https://steamcommunity.com/sharedfiles/filedetails/?id=1673456286)
+* [CBA_A3](https://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
+* [ace](https://steamcommunity.com/sharedfiles/filedetails/?id=463939057)
+* [RHSAFRF](https://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
+* [RHSUSAF](https://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
+* [RHSGREF](https://steamcommunity.com/sharedfiles/filedetails/?id=843593391)
+* [RHSSAF](https://steamcommunity.com/sharedfiles/filedetails/?id=843632231)
+* [ACE Compat - RHS AFRF](https://steamcommunity.com/sharedfiles/filedetails/?id=773131200)
+* [ACE Compat - RHS USAF](https://steamcommunity.com/sharedfiles/filedetails/?id=773125288)
+* [ACE Compat - RHS: GREF](https://steamcommunity.com/sharedfiles/filedetails/?id=884966711)
+* [ACE Compat - RHS: SAF](https://steamcommunity.com/sharedfiles/filedetails/?id=2174495332)
 * [ACRE2](https://steamcommunity.com/sharedfiles/filedetails/?id=751965892)
-* [Advanced Combat Environment 3 (ACE3)](https://steamcommunity.com/sharedfiles/filedetails/?id=463939057)
-* [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
-* [CUP Terrains - Maps](http://steamcommunity.com/sharedfiles/filedetails/?id=583544987)
+* [CUP Terrains - Core](https://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
+* [CUP Terrains - Maps](https://steamcommunity.com/sharedfiles/filedetails/?id=583544987)
+* [F/A-18E/F Super Hornet 2020](https://steamcommunity.com/sharedfiles/filedetails/?id=2131302796)
+* [3CB Factions](https://steamcommunity.com/sharedfiles/filedetails/?id=1673456286)
+* [ACE Pharmacy](https://steamcommunity.com/sharedfiles/filedetails/?id=2558422366)
+* [15th MEU (SOC) Ammo Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=1644588513)
+* [15th MEU (SOC) Mod Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=1644588962)
 * [FIR AWS (Air Weapon System)](https://steamcommunity.com/sharedfiles/filedetails/?id=366425329)
 
 
