@@ -520,6 +520,8 @@ ace_pylon_magazine_blacklist = [
     "FIR_S25OF_P_1rnd_M",
     "FIR_S25OFM_P_1rnd_M",
     "FIR_S25L_P_1rnd_M",
+    "FIR_GBU56_P_1rnd_M",
+    "FIR_GBU56_Navy_P_1rnd_M",
     // F-A-18E-F Super Hornet 2020 Cluster Magazines
     "PylonMissile_1Rnd_BombCluster_01_F",
     "PylonRack_2Rnd_BombCluster_01_F",
