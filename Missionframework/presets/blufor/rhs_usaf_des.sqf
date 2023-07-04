@@ -5,6 +5,9 @@
     Optional Mods:
     - F-15C
     - F/A-18
+    - USAF Main Pack
+    - USAF Fighters Pack
+    - USAF Utility Pack
 */
 
 /*
@@ -250,6 +253,19 @@ support_vehicles = [
     ["ACE_Box_82mm_Mo_Illum",50,10,0],
     ["ACE_Wheel",10,0,0],
     ["ACE_Track",10,0,0],
+    ["USAF_missileCart_W_AGM114",50,150,0],                             // Missile Cart (AGM-114)
+    ["USAF_missileCart_AGMMix",50,150,0],                               // Missile Cart (AGM-65 Mix)
+    ["USAF_missileCart_AGM1",50,150,0],                                 // Missile Cart (AGM-65D)
+    ["USAF_missileCart_AGM2",50,150,0],                                 // Missile Cart (AGM-65E)
+    ["USAF_missileCart_AGM3",50,150,0],                                 // Missile Cart (AGM-65K)
+    ["USAF_missileCart_AA1",50,150,0],                                  // Missile Cart (AIM-9M/AIM-120)
+    ["USAF_missileCart_AA2",50,150,0],                                  // Missile Cart (AIM-9X/AIM-120)
+    ["USAF_missileCart_GBU12_green",50,150,0],                          // Missile Cart (GBU12 Green)
+    ["USAF_missileCart_GBU12_maritime",50,150,0],                       // Missile Cart (GBU12 Maritime)
+    ["USAF_missileCart_GBU12",50,150,0],                                // Missile Cart (GBU12)
+    ["USAF_missileCart_Gbu31",50,150,0],                                // Missile Cart (GBU31)
+    ["USAF_missileCart_GBU39",50,150,0],                                // Missile Cart (GBU39)
+    ["USAF_missileCart_Mk82",50,150,0],                                 // Missile Cart (Mk82)
     ["B_APC_Tracked_01_CRV_F",500,250,350],                             // CRV-6e Bobcat
     ["rhsusf_M1078A1R_SOV_M2_D_fmtv_socom",400,200,300],                // M1078A1R SOV
     ["B_Truck_01_Repair_F",325,0,75],                                   // HEMTT Repair
