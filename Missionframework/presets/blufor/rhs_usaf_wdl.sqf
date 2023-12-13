@@ -141,7 +141,9 @@ air_vehicles = [
 	["B_T_VTOL_01_infantry_F",400,0,200],                                // V-44X Blackfish (Infantry Transport)
 	["B_T_VTOL_01_vehicle_F",400,0,200],                                 // V-44X Blackfish (Vehicle Transport)
 	["JS_JC_FA18E",1000,1000,500],                                       // F/A-18E Super Hornet (single seat)
-	["JS_JC_FA18F",1000,1000,500]                                        // F/A-18F Super Hornet (dual seat)
+	["JS_JC_FA18F",1000,1000,500],                                       // F/A-18F Super Hornet (dual seat)
+    ["DEGA_V22_Infantry_B_NATO",400,0,200],                              // V-22 Osprey (Transport)
+    ["DEGA_V22_IDWS_B_NATO",400,100,200]                                 // V-22 Osprey (Armed Transport)
 ];
 
 static_vehicles = [
